@@ -119,6 +119,20 @@ def _read_sidecar(path: Path) -> dict[str, Any]:
         return {}
 
 
+def count_tls_unverified(raw_dir: Path) -> int:
+    """Number of documents in ``raw_dir`` downloaded without TLS verification
+    (sidecar ``tls_verified: false``, written by ``fetch_sources``)."""
+    count = 0
+    for meta_path in Path(raw_dir).glob(f"*{META_SUFFIX}"):
+        try:
+            data = json.loads(meta_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        if isinstance(data, dict) and data.get("tls_verified") is False:
+            count += 1
+    return count
+
+
 def _detect_language(text: str) -> str:
     from chatbot.language import detect_language
 
@@ -344,6 +358,7 @@ def build_knowledge_base(settings=None, embedder=None) -> IngestReport:
             "chunk_size_ta": settings.chunk_size_ta,
             "chunk_overlap": settings.chunk_overlap,
             "documents": len(docs),
+            "tls_unverified_documents": count_tls_unverified(settings.raw_data_dir),
         },
     )
     store.save(settings.index_dir)

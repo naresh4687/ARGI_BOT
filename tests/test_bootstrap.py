@@ -37,3 +37,16 @@ def test_auto_fetch_downloads_then_builds_index(tmp_path, monkeypatch):
     store = bootstrap.load_or_build_store(_settings(tmp_path, auto_fetch_sources=True), HashingEmbedder())
     assert calls == [True]
     assert store.size >= 1 and store.chunks[0].document_id == "drip"
+    assert store.info["tls_unverified_documents"] == 0
+
+
+def test_tls_unverified_downloads_are_counted_in_index_info(tmp_path):
+    raw = tmp_path / "raw"
+    raw.mkdir()
+    for name, verified in [("drip", True), ("blast", False), ("ipm", False)]:
+        (raw / f"{name}.txt").write_text(f"{name} passage about crops and water.", encoding="utf-8")
+        (raw / f"{name}.txt.meta.json").write_text(f'{{"tls_verified": {str(verified).lower()}}}', encoding="utf-8")
+    (raw / "local.txt").write_text("A manually added document without a sidecar.", encoding="utf-8")
+    store = bootstrap.load_or_build_store(_settings(tmp_path), HashingEmbedder())
+    assert store.info["documents"] == 4
+    assert store.info["tls_unverified_documents"] == 2

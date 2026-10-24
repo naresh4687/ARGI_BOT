@@ -66,6 +66,15 @@ SAMPLE_CHUNKS = [
 ]
 
 
+@pytest.fixture(autouse=True)
+def _ignore_local_streamlit_secrets(monkeypatch):
+    """Tests configure the app through env vars only; a developer's local
+    .streamlit/secrets.toml (which may hold a real key) must not leak in."""
+    import config.settings
+
+    monkeypatch.setattr(config.settings, "_streamlit_secret", lambda name: None)
+
+
 @pytest.fixture
 def embedder() -> HashingEmbedder:
     return HashingEmbedder()

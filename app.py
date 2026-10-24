@@ -98,6 +98,14 @@ def main() -> None:
     kb_summary = f"{docs} documents, {store.size} passages"
 
     state = render_sidebar(mode_label, kb_summary)
+    unverified = store.info.get("tls_unverified_documents", 0)
+    if unverified:
+        st.sidebar.warning(
+            f"{unverified} of {docs} source documents were downloaded without HTTPS certificate "
+            "verification, because the TNAU server's certificate check failed. Their text could "
+            "have been altered in transit. Check important advice against the linked TNAU pages.",
+            icon="⚠️",
+        )
     if settings.llm_provider != "offline" and provider_warning is None:
         st.sidebar.toggle(
             "Offline demo mode",

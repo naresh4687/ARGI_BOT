@@ -366,7 +366,10 @@ native Tamil speaker or an agronomist. Details and remaining failure cases:
    main file to `app.py` and, under *Advanced settings*, pick **Python 3.12**.
 3. In **Secrets**, paste the contents of `.streamlit/secrets.toml.example` with your real
    values. Keep `AUTO_FETCH_SOURCES = "1"`: the repository has no source documents, so
-   the app downloads them from the manifest on first boot.
+   the app downloads them from the manifest on first boot. If the TNAU server's HTTPS
+   certificate check fails, those pages are downloaded without verification (their
+   text could have been altered in transit), and the sidebar shows how many documents
+   this affects.
 4. Deploy. The first boot installs CPU PyTorch and downloads the embedding model, so
    expect several minutes, plus 1–2 minutes to download the corpus and build the index
    on the small cloud CPUs. The container filesystem is ephemeral, so this repeats

@@ -76,6 +76,20 @@ def test_missing_credentials_falls_back_to_offline(monkeypatch):
     assert "Offline demo" in _markdown(at.chat_message[-1])
 
 
+def test_malformed_key_falls_back_to_offline_without_crashing(monkeypatch):
+    from streamlit.testing.v1 import AppTest
+
+    monkeypatch.setenv("LLM_PROVIDER", "openai_compatible")
+    monkeypatch.setenv("LLM_API_KEY", "gsk_P8d2…")  # key pasted with an ellipsis
+    monkeypatch.setenv("LLM_MODEL", "some-model")
+    at = AppTest.from_file(APP, default_timeout=180).run()
+    assert not at.exception
+    assert any("malformed" in w.value and "offline demo" in w.value for w in at.warning)
+    assert all("gsk_P8d2" not in w.value for w in at.warning)
+    at.chat_input[0].set_value("What are the symptoms of rice blast disease?").run()
+    assert not at.exception
+
+
 def test_provider_outage_shows_friendly_error_and_sources(monkeypatch):
     from streamlit.testing.v1 import AppTest
 

@@ -40,6 +40,13 @@ class MissingCredentialsError(LLMError):
     )
 
 
+class InvalidCredentialsError(MissingCredentialsError):
+    user_message = (
+        "The AI provider's API key is malformed: it contains spaces or non-ASCII characters "
+        "(for example a pasted '…' or curly quote). Copy the key again into LLM_API_KEY."
+    )
+
+
 class AuthenticationError(LLMError):
     user_message = "The AI provider rejected the API key. Please check LLM_API_KEY."
 
@@ -165,8 +172,12 @@ class OpenAICompatibleProvider(_HTTPProvider):
         max_tokens: int = 700,
         **kwargs,
     ) -> None:
+        api_key = (api_key or "").strip()
         if not api_key or not model:
             raise MissingCredentialsError("LLM_API_KEY and LLM_MODEL are required")
+        # HTTP headers must be ASCII; a pasted ellipsis or quote would otherwise crash the request.
+        if not api_key.isascii() or not api_key.isprintable() or any(c.isspace() for c in api_key):
+            raise InvalidCredentialsError("LLM_API_KEY contains invalid characters")
         super().__init__(timeout, max_retries, **kwargs)
         self._api_key = api_key
         self.model = model

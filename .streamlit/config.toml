@@ -11,9 +11,13 @@ headless = true
 # The UI has no file upload: documents are added via the ingestion CLI so that
 # public users cannot alter the knowledge base.
 maxUploadSize = 1
+# Code changes arrive by redeploying; watching would also scan every installed module.
+fileWatcherType = "none"
 
 [browser]
 gatherUsageStats = false
 
 [client]
 toolbarMode = "minimal"
+# Public app: show a generic message instead of tracebacks (details stay in the server log).
+showErrorDetails = "none"

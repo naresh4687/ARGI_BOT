@@ -8,6 +8,7 @@ import requests
 
 from chatbot.llm_client import (
     AuthenticationError,
+    InvalidCredentialsError,
     InvalidResponseError,
     MissingCredentialsError,
     OllamaProvider,
@@ -67,6 +68,21 @@ def test_missing_credentials():
         OpenAICompatibleProvider(api_key="", model="m", base_url="https://x")
     with pytest.raises(MissingCredentialsError):
         create_provider(Settings(llm_provider="openai_compatible", llm_api_key="", llm_model="m"))
+
+
+@pytest.mark.parametrize("bad_key", ["gsk_abc…", "“gsk_abc”", "gsk_ abc", "gsk_abc\u200b"])
+def test_malformed_key_is_rejected_without_echoing_it(bad_key):
+    with pytest.raises(InvalidCredentialsError) as exc:
+        OpenAICompatibleProvider(api_key=bad_key, model="m", base_url="https://x")
+    assert isinstance(exc.value, MissingCredentialsError)  # app falls back to offline mode
+    assert bad_key not in str(exc.value) and bad_key not in exc.value.user_message
+
+
+def test_surrounding_whitespace_is_stripped_from_key():
+    session = FakeSession(ok("Hello"))
+    provider = OpenAICompatibleProvider(api_key=f"  {SECRET}\n", model="m", base_url="https://x", session=session)
+    provider.generate(MESSAGES)
+    assert session.calls[0]["headers"]["Authorization"] == f"Bearer {SECRET}"
 
 
 def test_offline_mode_creates_no_provider():

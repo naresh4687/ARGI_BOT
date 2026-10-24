@@ -86,7 +86,8 @@ def neutralize_passage(text: str) -> tuple[str, bool]:
 # --------------------------------------------------------------------------- #
 # Model output
 # --------------------------------------------------------------------------- #
-_CITATION_RE = re.compile(r"\[\s*(S\d+)(?:\s*[,;]\s*S\d+)*\s*\]")
+# Some models (e.g. gpt-oss) write 【S1】 instead of [S1]; both are normalised to [S1].
+_CITATION_RE = re.compile(r"[\[【]\s*(S\d+)(?:\s*[,;，]\s*S\d+)*\s*[\]】]")
 _LABEL_RE = re.compile(r"S\d+")
 _URL_RE = re.compile(r"(?:https?://|www\.)[^\s)\]>\"']+", re.I)
 

@@ -278,6 +278,12 @@ indefinitely.** When a quota is hit, the app shows a friendly message and still
 displays the retrieved sources. For Tamil answers, choose a model with good Tamil
 ability and check its output on the evaluation questions (§16).
 
+Measured on 24 Oct 2026 with free keys: Gemini `gemini-2.5-flash` allowed only **20
+requests per day**, too few for a public app. Groq `openai/gpt-oss-120b` allowed 1,000
+requests per day but only 8,000 tokens per minute (about 2–3 answers per minute), with
+answers in 1–12 s. On HTTP 429 the client waits for the provider's `Retry-After` (up to
+20 s) before retrying, and gives up at once when the wait is longer (a daily quota).
+
 **Local (Ollama), free, offline and no API key.** This is the setup used on the
 development laptop (Linux, CPU only). Ollama was installed in the home folder without
 admin rights:

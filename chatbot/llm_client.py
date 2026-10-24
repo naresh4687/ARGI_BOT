@@ -24,6 +24,7 @@ import requests
 from config.settings import Settings
 
 logger = logging.getLogger(__name__)
+MAX_RETRY_AFTER_SECONDS = 20.0  # longest provider-requested wait before retrying
 
 
 class LLMError(Exception):
@@ -48,6 +49,7 @@ class QuotaExceededError(LLMError):
         "The AI provider's rate limit or free-tier quota has been reached. Please wait a "
         "minute and try again, or switch to offline demo mode."
     )
+    retry_after: float | None = None  # seconds, from the provider's Retry-After header
 
 
 class ProviderTimeoutError(LLMError):
@@ -115,6 +117,12 @@ class _HTTPProvider(LLMProvider):
             if attempt >= self.max_retries:
                 raise error
             delay = min(8.0, (2**attempt) + random.uniform(0, 0.5))
+            retry_after = getattr(error, "retry_after", None)
+            if retry_after is not None:
+                # Per-minute limits reset within seconds; a longer wait means a daily quota.
+                if retry_after > MAX_RETRY_AFTER_SECONDS:
+                    raise error
+                delay = max(delay, retry_after)
             logger.warning("%s call failed (%s); retry %d in %.1fs", self.name, type(error).__name__, attempt + 1, delay)
             self._sleep(delay)
             attempt += 1
@@ -126,7 +134,12 @@ class _HTTPProvider(LLMProvider):
         if code in (401, 403):
             return AuthenticationError(detail)
         if code == 429:
-            return QuotaExceededError(detail)
+            quota = QuotaExceededError(detail)
+            try:
+                quota.retry_after = float(resp.headers.get("retry-after", ""))
+            except (AttributeError, TypeError, ValueError):
+                pass
+            return quota
         if code in (404,):
             err = InvalidResponseError(detail + " (model or endpoint not found)")
             err.user_message = "The configured AI model or endpoint was not found. Check LLM_MODEL and LLM_BASE_URL."

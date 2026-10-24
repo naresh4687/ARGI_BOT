@@ -24,10 +24,11 @@ MESSAGES = [{"role": "user", "content": "hi"}]
 
 
 class FakeResponse:
-    def __init__(self, status=200, payload=None, text=None):
+    def __init__(self, status=200, payload=None, text=None, headers=None):
         self.status_code = status
         self._payload = payload
         self._text = text
+        self.headers = headers or {}
 
     def json(self):
         if self._payload is None:
@@ -88,6 +89,24 @@ def test_quota_error_retried_then_raised():
         make(session, retries=2).generate(MESSAGES)
     assert len(session.calls) == 3
     assert "quota" in exc.value.user_message.lower()
+
+
+def test_quota_retry_waits_for_short_retry_after():
+    waits = []
+    session = FakeSession(FakeResponse(429, headers={"retry-after": "12"}), ok("Hello"))
+    provider = OpenAICompatibleProvider(
+        api_key=SECRET, model="m", base_url="https://api.example/v1", max_retries=2,
+        session=session, sleep=waits.append,
+    )
+    assert provider.generate(MESSAGES) == "Hello"
+    assert waits == [12.0]
+
+
+def test_quota_with_long_retry_after_is_not_retried():
+    session = FakeSession(FakeResponse(429, headers={"retry-after": "70000"}), ok())
+    with pytest.raises(QuotaExceededError):
+        make(session, retries=2).generate(MESSAGES)
+    assert len(session.calls) == 1
 
 
 def test_transient_server_error_recovers():

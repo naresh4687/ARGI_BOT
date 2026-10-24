@@ -79,6 +79,13 @@ def test_invalid_source_identifiers_removed():
     assert "[S2]" in result.text
 
 
+def test_lenticular_bracket_citations_normalised():
+    result = validate_citations("இலைகள் பாதிக்கப்படும்【S1】. Spots【S2, S9】.", {"S1", "S2"}, set())
+    assert result.cited_labels == ["S1", "S2"]
+    assert result.invalid_labels == ["S9"]
+    assert "【" not in result.text and "[S1]" in result.text and "[S2]" in result.text
+
+
 def test_model_invented_urls_removed_but_real_source_urls_kept():
     real = "https://agritech.tnau.ac.in/real.html"
     answer = f"See {real} and https://fake-agri-site.example/dose.html for details [S1]."

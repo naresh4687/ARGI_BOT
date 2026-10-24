@@ -1,0 +1,609 @@
+[
+  {
+    "id": "en01",
+    "question": "What are the symptoms of rice blast disease?",
+    "language": "en",
+    "status": "answered",
+    "mode": "openai_compatible",
+    "latency_ms": 7193,
+    "answer": "Rice blast disease symptoms can be observed at various stages of crop growth, from seedling to late tillering and ear heading [S1].\n\nSymptoms appear on different parts of the rice plant:\n* **Leaves:** Lesions appear as small bluish green flecks [S1].\n* **Neck:** The disease causes girdling of the neck, which can lead to the panicle falling over [S2]. If neck infection happens before the milky stage, no grain is formed; if it occurs later, grains of poor quality are formed [S2].\n* **Panicles and Spikelet Pedicels:** Lesions on these parts are brown to dark brown [S2].\n* **General:** Symptoms can also appear on nodes, rachis, and glumes [S1]. The size and shape of the spots can vary depending on the rice variety [S2].",
+    "warnings": [],
+    "cited_sources": [
+      "Diseases of Rice: Blast (Magnaporthe oryzae)",
+      "Diseases of Rice: Blast (Magnaporthe oryzae)"
+    ],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "en02",
+    "question": "What are the advantages of drip irrigation?",
+    "language": "en",
+    "status": "answered",
+    "mode": "openai_compatible",
+    "latency_ms": 2558,
+    "answer": "The advantages of drip irrigation include:\n* High quality and increased fruit size [S1, S2].\n* Suitable for all types of soil [S1, S2].\n* Easy method of fertigation and chemigation [S1].\n* Saving in labour and field preparation cost [S1].\n* 50 to 65% water saving compared to control method [S2].\n* Crop attains early maturity [S2].\n* Crop quality and yield increased [S2].\n* Requires least land levelling [S2].\n* Poor quality water can be used [S2].",
+    "warnings": [],
+    "cited_sources": [
+      "Irrigation Management: Drip Irrigation",
+      "Irrigation Management: Drip Irrigation"
+    ],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "en03",
+    "question": "How can I improve fertilizer use efficiency?",
+    "language": "en",
+    "status": "answered",
+    "mode": "openai_compatible",
+    "latency_ms": 2257,
+    "answer": "To improve fertilizer use efficiency, consider the following tips:\n* Fertilizer scheduling should be based on a soil test [S1].\n* Select fertilizers according to the soil's reaction [S1]. For alkaline soils, use acidic fertilizers, and for acidic soil reactions, use basic fertilizers [S1].",
+    "warnings": [],
+    "cited_sources": [
+      "Nutrient Management: Tips for Better Fertilizer Use Efficiency"
+    ],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "en04",
+    "question": "What are the components of integrated pest management?",
+    "language": "en",
+    "status": "answered",
+    "mode": "openai_compatible",
+    "latency_ms": 3740,
+    "answer": "Integrated Pest Management (IPM) includes several components:\n\n* **Biological control**: This involves using living organisms such as parasitoids, predators, and pathogens to control pest populations [S1]. It aims to keep pest populations below levels that cause economic loss by introducing new bioagents or increasing the effectiveness of existing ones [S1]. Biological control includes augmentation and conservation of natural enemies like insect predators, parasitoids, pathogens, and weed feeders [S4]. Native natural enemy populations are conserved, and non-native agents are released with caution [S3, S4]. Conservation is a very important part of biological control, protecting natural enemies already present in nature [S2].\n* **Chemical control**: Pesticides are used to keep pest populations below economically damaging levels when other methods cannot control them [S3]. This is applied only when the pest's damaging capacity is nearing the threshold [S3].\n* Other practices: Examples of practices within IPM include bird perches, mulching, and installation of traps [S4].",
+    "warnings": [],
+    "cited_sources": [
+      "Crop Protection: Integrated Pest Management – Components",
+      "Crop Protection: Integrated Pest Management – Components",
+      "Crop Protection: Integrated Pest Management – Introduction",
+      "Crop Protection: Integrated Pest Management – Introduction"
+    ],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "en05",
+    "question": "How do I identify yellow stem borer damage in paddy?",
+    "language": "en",
+    "status": "answered",
+    "mode": "openai_compatible",
+    "latency_ms": 2513,
+    "answer": "You can identify yellow stem borer damage in paddy by several symptoms:\n* You might see brown coloured egg masses near the leaf tip [S1].\n* In paddy seedlings and tillers, the larva bores into the central shoot, causing it to dry. This is known as \"dead heart\" [S1].\n* If the infestation happens in a grown-up plant, the entire panicle dries and is known as \"white ear\" [S1, S2].\n* Affected shoots and panicles can be easily pulled by hand [S2].",
+    "warnings": [],
+    "cited_sources": [
+      "Pests of Paddy: Yellow Stem Borer (Scirpophaga incertulas)",
+      "Pests of Paddy: Yellow Stem Borer (Scirpophaga incertulas)"
+    ],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "en06",
+    "question": "At which crop stages is irrigation most critical?",
+    "language": "en",
+    "status": "answered",
+    "mode": "openai_compatible",
+    "latency_ms": 3204,
+    "answer": "Irrigation is most critical at the following crop stages:\n\n* **Rice:** Initial tillering and flowering [S1].\n* **Wheat:** Crown root initiation, tillering, jointing, booting, flowering, milk, and dough stages are most critical [S1]. Boot stage and dough stage are also mentioned [S1].\n* **Pulses:** Flowering and podding [S1].\n* **Peas:** Pre bloom stage [S1].\n* **Berseem:** After each cutting [S1, S2].\n* **Gram:** Pre flowering and flowering [S1, S2].\n* **Pigeonpea:** Flower initiation and pod filling [S2].\n* **Sorghum:** Initial seedling, pre flowering, flowering, and grain formation [S2].\n* **Barley:** Boot stage and dough stage [S2].\n* **Maize:** Early vegetative, taselling, and silking stage [S2].",
+    "warnings": [],
+    "cited_sources": [
+      "Irrigation Management: Critical Stages for Irrigation",
+      "Irrigation Management: Critical Stages for Irrigation"
+    ],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "en07",
+    "question": "What is integrated nutrient management?",
+    "language": "en",
+    "status": "error",
+    "mode": "openai_compatible",
+    "latency_ms": 5790,
+    "answer": "Sorry, the answer could not be generated. The AI provider's rate limit or free-tier quota has been reached. Please wait a minute and try again, or switch to offline demo mode.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "en08",
+    "question": "How should water be managed in SRI rice cultivation?",
+    "language": "en",
+    "status": "error",
+    "mode": "openai_compatible",
+    "latency_ms": 4949,
+    "answer": "Sorry, the answer could not be generated. The AI provider's rate limit or free-tier quota has been reached. Please wait a minute and try again, or switch to offline demo mode.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "en09",
+    "question": "What are the symptoms of bacterial leaf blight in rice?",
+    "language": "en",
+    "status": "error",
+    "mode": "openai_compatible",
+    "latency_ms": 5188,
+    "answer": "Sorry, the answer could not be generated. The AI provider's rate limit or free-tier quota has been reached. Please wait a minute and try again, or switch to offline demo mode.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "en10",
+    "question": "Why is organic matter important for soil fertility?",
+    "language": "en",
+    "status": "error",
+    "mode": "openai_compatible",
+    "latency_ms": 5426,
+    "answer": "Sorry, the answer could not be generated. The AI provider's rate limit or free-tier quota has been reached. Please wait a minute and try again, or switch to offline demo mode.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "en11",
+    "question": "What does nitrogen deficiency look like in plants?",
+    "language": "en",
+    "status": "error",
+    "mode": "openai_compatible",
+    "latency_ms": 5525,
+    "answer": "Sorry, the answer could not be generated. The AI provider's rate limit or free-tier quota has been reached. Please wait a minute and try again, or switch to offline demo mode.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "en12",
+    "question": "How do I check whether my well water is suitable for irrigation?",
+    "language": "en",
+    "status": "error",
+    "mode": "openai_compatible",
+    "latency_ms": 5036,
+    "answer": "Sorry, the answer could not be generated. The AI provider's rate limit or free-tier quota has been reached. Please wait a minute and try again, or switch to offline demo mode.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "en13",
+    "question": "How can companion planting reduce pest problems?",
+    "language": "en",
+    "status": "error",
+    "mode": "openai_compatible",
+    "latency_ms": 4766,
+    "answer": "Sorry, the answer could not be generated. The AI provider's rate limit or free-tier quota has been reached. Please wait a minute and try again, or switch to offline demo mode.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "en14",
+    "question": "What are the symptoms of sheath blight in paddy?",
+    "language": "en",
+    "status": "error",
+    "mode": "openai_compatible",
+    "latency_ms": 5045,
+    "answer": "Sorry, the answer could not be generated. The AI provider's rate limit or free-tier quota has been reached. Please wait a minute and try again, or switch to offline demo mode.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ta01",
+    "question": "நெல்லில் குலைநோயின் அறிகுறிகள் என்ன?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "openai_compatible",
+    "latency_ms": 7381,
+    "answer": "நெல்லில் குலைநோயின் அறிகுறிகள்:\n\n* பயிரின் அனைத்து பகுதிகளும், அதாவது இலைகள், தண்டு, கணுப்பகுதி, கழுத்துப் பகுதி மற்றும் கதிர் ஆகியவை பூசணத்தால் தாக்கப்பட்டிருக்கும் [S1].",
+    "warnings": [],
+    "cited_sources": [
+      "நெல் பயிரைத் தாக்கும் நோய்கள்: குலைநோய் (Blast)"
+    ],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ta02",
+    "question": "சொட்டு நீர்ப் பாசனத்தின் நன்மைகள் என்ன?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "openai_compatible",
+    "latency_ms": 1963,
+    "answer": "சொட்டு நீர்ப் பாசனத்தின் நன்மைகள் பின்வருமாறு:\n* சாதாரண முறையைக் காட்டிலும் 50-65 சதம் வரை நீர் சேமிக்கப்படுகிறது [S1].\n* பயிர் எளிதில் வளர்ச்சி அடைகிறது [S1].\n* அதிக உற்பத்தி மற்றும் உயர்ந்த தரம் கிடைக்கும் [S1].",
+    "warnings": [],
+    "cited_sources": [
+      "நீர் மேலாண்மை: சொட்டு நீர்ப் பாசனம் (Drip Irrigation)"
+    ],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ta03",
+    "question": "திருந்திய நெல் சாகுபடியில் நாற்றங்கால் எப்படி தயார் செய்வது?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "openai_compatible",
+    "latency_ms": 4076,
+    "answer": "திருந்திய நெல் சாகுபடியில் நாற்றங்கால் தயார் செய்ய, ஒரு ஏக்கரில் நடுவதற்கு 100 மீட்டர் நாற்றங்கால் தயார் செய்ய வேண்டும் [S1]. நாற்றங்கால் நிலம் சமமாக இருக்க வேண்டும் [S1]. மேலும், நீர் ஆதாரத்திற்கு",
+    "warnings": [],
+    "cited_sources": [
+      "திருந்திய நெல் சாகுபடி: நாற்றங்கால் மேலாண்மை (SRI Nursery Management)"
+    ],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ta04",
+    "question": "ஒருங்கிணைந்த ஊட்டச்சத்து மேலாண்மை என்றால் என்ன?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "openai_compatible",
+    "latency_ms": 2656,
+    "answer": "ஒருங்கிணைந்த ஊட்டச்சத்து மேலாண்மை (Integrated Nutrient Management) என்பது பயிரிடுவதற்குத் தேவையான ஊட்டச்சத்தை முதலில் தீர்மானிப்பது [S1]. மேலும், மண் வளத்தின் நிலவரம் மற்றும் மண்ணின் குறைகளைத் தீர்க்கக்கூடிய சிறப்பு மேலாண்மை பற்றி முடிவு செய்ய வேண்டும் [S1]. ஊட்டச்சத்து ஆதாரங்களின் இருப்பு பற்றியும் அறிய வேண்டும் [S1].",
+    "warnings": [],
+    "cited_sources": [
+      "உர நிர்வாகம்: ஒருங்கிணைந்த ஊட்டச்சத்து மேலாண்மை (Integrated Nutrient Management)"
+    ],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ta05",
+    "question": "நெல்லில் தண்டுத் துளைப்பான் தாக்குதலின் அறிகுறிகள் என்ன?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "openai_compatible",
+    "latency_ms": 2161,
+    "answer": "நெல்லில் தண்டுத் துளைப்பான் தாக்குதலின் அறிகுறிகள்:\n* இலையின் நுனியில் பழுப்பு நிற முட்டைக் கூட்டம் காணப்படும் [S1].\n* தழைப்பருவத்தில் புழுக்கள் தண்டுகளில் நுழைந்து வளரும் தண்டுகளை உட்கொள்வதால் அதன் நடுப்பகுதி காய்ந்துவிடுகிறது [S1].",
+    "warnings": [],
+    "cited_sources": [
+      "நெல் பயிரைத் தாக்கும் பூச்சிகள்: தண்டுத் துளைப்பான் (Yellow Stem Borer)"
+    ],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ta06",
+    "question": "பாக்டீரியா இலைக்கருகல் நோயை எப்படி கண்டறிவது?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "openai_compatible",
+    "latency_ms": 1827,
+    "answer": "பாக்டீரியா இலைக்கருகல் நோயைக் கண்டறியும் அறிகுறிகள் பின்வருமாறு:\n* இலைப்பரப்பின் மீது நீரில் நனைத்தது போன்று மஞ்சள் நிற வரிகள் காணப்படும் [S1].\n* அல்லது இலை நுனிகள் அலை வடிவ ஓரத்துடன் மாறும் [S1].",
+    "warnings": [],
+    "cited_sources": [
+      "நெல் பயிரைத் தாக்கும் நோய்கள்: பாக்டீரியா இலைக்கருகல் நோய் (Bacterial Leaf Blight)"
+    ],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ta07",
+    "question": "ஒருங்கிணைந்த பூச்சி மேலாண்மையின் கூறுகள் யாவை?",
+    "language": "ta",
+    "status": "error",
+    "mode": "openai_compatible",
+    "latency_ms": 5023,
+    "answer": "மன்னிக்கவும், பதிலை உருவாக்க முடியவில்லை. The AI provider's rate limit or free-tier quota has been reached. Please wait a minute and try again, or switch to offline demo mode.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ta08",
+    "question": "மண் வளத்தில் அங்ககப் பொருட்களின் பங்கு என்ன?",
+    "language": "ta",
+    "status": "error",
+    "mode": "openai_compatible",
+    "latency_ms": 5014,
+    "answer": "மன்னிக்கவும், பதிலை உருவாக்க முடியவில்லை. The AI provider's rate limit or free-tier quota has been reached. Please wait a minute and try again, or switch to offline demo mode.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ta09",
+    "question": "பாசன நீர் பயிருக்கு ஏற்றதா என்று எப்படி அறிவது?",
+    "language": "ta",
+    "status": "insufficient",
+    "mode": "openai_compatible",
+    "latency_ms": 31,
+    "answer": "இதைப் பற்றிய சரிபார்க்கப்பட்ட தகவல் என் அறிவுத் தளத்தில் கிடைக்கவில்லை. பயிரின் பெயர் மற்றும் நீங்கள் காணும் பிரச்சனையுடன் மீண்டும் கேட்கவும், அல்லது அருகிலுள்ள வேளாண் அறிவியல் மையம் (KVK) / வேளாண் விரிவாக்க அலுவலரைத் தொடர்பு கொள்ளவும்.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ta10",
+    "question": "உரத்தின் பயன்பாட்டுத் திறனை எப்படி அதிகரிப்பது?",
+    "language": "ta",
+    "status": "error",
+    "mode": "openai_compatible",
+    "latency_ms": 5400,
+    "answer": "மன்னிக்கவும், பதிலை உருவாக்க முடியவில்லை. The AI provider's rate limit or free-tier quota has been reached. Please wait a minute and try again, or switch to offline demo mode.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ta11",
+    "question": "திருந்திய நெல் சாகுபடியில் களை எப்படி கட்டுப்படுத்துவது?",
+    "language": "ta",
+    "status": "error",
+    "mode": "openai_compatible",
+    "latency_ms": 5430,
+    "answer": "மன்னிக்கவும், பதிலை உருவாக்க முடியவில்லை. The AI provider's rate limit or free-tier quota has been reached. Please wait a minute and try again, or switch to offline demo mode.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ta12",
+    "question": "பயிருக்கு அத்தியாவசியமான ஊட்டச்சத்துக்கள் யாவை?",
+    "language": "ta",
+    "status": "error",
+    "mode": "openai_compatible",
+    "latency_ms": 5413,
+    "answer": "மன்னிக்கவும், பதிலை உருவாக்க முடியவில்லை. The AI provider's rate limit or free-tier quota has been reached. Please wait a minute and try again, or switch to offline demo mode.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "oos01",
+    "question": "Who won the cricket world cup in 2011?",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "openai_compatible",
+    "latency_ms": 58,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "oos02",
+    "question": "Write a short poem about the moon.",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "openai_compatible",
+    "latency_ms": 86,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "oos03",
+    "question": "What is the stock price of Reliance today?",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "openai_compatible",
+    "latency_ms": 85,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "oos04",
+    "question": "How do I repair a punctured bicycle tyre?",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "openai_compatible",
+    "latency_ms": 47,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "oos05",
+    "question": "How do I grow saffron in Kashmir?",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "openai_compatible",
+    "latency_ms": 23,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "oos06",
+    "question": "What is the minimum support price for wheat this year?",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "openai_compatible",
+    "latency_ms": 25,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "oos07",
+    "question": "How do I vaccinate my dairy cows against foot and mouth disease?",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "openai_compatible",
+    "latency_ms": 26,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "oos08",
+    "question": "நாளை சென்னையில் மழை பெய்யுமா?",
+    "language": "ta",
+    "status": "insufficient",
+    "mode": "openai_compatible",
+    "latency_ms": 23,
+    "answer": "இதைப் பற்றிய சரிபார்க்கப்பட்ட தகவல் என் அறிவுத் தளத்தில் கிடைக்கவில்லை. பயிரின் பெயர் மற்றும் நீங்கள் காணும் பிரச்சனையுடன் மீண்டும் கேட்கவும், அல்லது அருகிலுள்ள வேளாண் அறிவியல் மையம் (KVK) / வேளாண் விரிவாக்க அலுவலரைத் தொடர்பு கொள்ளவும்.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "oos09",
+    "question": "தமிழ்நாட்டின் முதலமைச்சர் யார்?",
+    "language": "ta",
+    "status": "insufficient",
+    "mode": "openai_compatible",
+    "latency_ms": 22,
+    "answer": "இதைப் பற்றிய சரிபார்க்கப்பட்ட தகவல் என் அறிவுத் தளத்தில் கிடைக்கவில்லை. பயிரின் பெயர் மற்றும் நீங்கள் காணும் பிரச்சனையுடன் மீண்டும் கேட்கவும், அல்லது அருகிலுள்ள வேளாண் அறிவியல் மையம் (KVK) / வேளாண் விரிவாக்க அலுவலரைத் தொடர்பு கொள்ளவும்.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  },
+  {
+    "id": "oos10",
+    "question": "ஒரு நல்ல திரைப்படம் பரிந்துரைக்கவும்",
+    "language": "ta",
+    "status": "insufficient",
+    "mode": "openai_compatible",
+    "latency_ms": 23,
+    "answer": "இதைப் பற்றிய சரிபார்க்கப்பட்ட தகவல் என் அறிவுத் தளத்தில் கிடைக்கவில்லை. பயிரின் பெயர் மற்றும் நீங்கள் காணும் பிரச்சனையுடன் மீண்டும் கேட்கவும், அல்லது அருகிலுள்ள வேளாண் அறிவியல் மையம் (KVK) / வேளாண் விரிவாக்க அலுவலரைத் தொடர்பு கொள்ளவும்.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": ""
+    }
+  }
+]

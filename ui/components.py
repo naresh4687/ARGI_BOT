@@ -25,7 +25,8 @@ html, body, [class*="css"], .stMarkdown, .stChatMessage, button, input, textarea
 }
 /* Tamil glyphs have tall ascenders/descenders - give lines more room. */
 .stMarkdown p, .stMarkdown li { line-height: 1.7; }
-.block-container { padding-top: 1.6rem; max-width: 880px; }
+/* Clear Streamlit's fixed top bar (Share/GitHub icons on Community Cloud). */
+.block-container { padding-top: 4rem; max-width: 880px; }
 
 .agri-header { display: flex; align-items: center; gap: .75rem; margin-bottom: .25rem; }
 .agri-header h1 { color: var(--agri-green-dark); font-size: 1.9rem; margin: 0; padding: 0; }

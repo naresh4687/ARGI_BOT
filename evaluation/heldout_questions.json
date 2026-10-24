@@ -1,0 +1,33 @@
+{
+  "description": "Held-out questions written AFTER retrieval parameters were tuned on eval_questions.json, and not used for tuning. Expected documents were fixed before the first run.",
+  "questions": [
+    {"id": "h-en01", "language": "en", "question": "How does sprinkler irrigation work and when is it suitable?", "expected_documents": ["tnau-irrigation-sprinkler-en"]},
+    {"id": "h-en02", "language": "en", "question": "What damage does gall midge cause to rice?", "expected_documents": ["tnau-rice-pest-gall-midge-en"]},
+    {"id": "h-en03", "language": "en", "question": "How do leaf folder caterpillars damage paddy leaves?", "expected_documents": ["tnau-rice-pest-leaf-folder-en"]},
+    {"id": "h-en04", "language": "en", "question": "What causes brown spot disease in rice?", "expected_documents": ["tnau-rice-disease-brown-spot-en"]},
+    {"id": "h-en05", "language": "en", "question": "What are the different methods of applying fertilizers?", "expected_documents": ["tnau-nutrient-application-methods-en"]},
+    {"id": "h-en06", "language": "en", "question": "How much seed is needed for an SRI nursery?", "expected_documents": ["tnau-rice-sri-nursery-en", "tnau-rice-sri-nursery-ta"]},
+    {"id": "h-en07", "language": "en", "question": "Which factors should I consider when selecting a crop?", "expected_documents": ["tnau-crop-selection-en"]},
+    {"id": "h-en08", "language": "en", "question": "Why is natural pest control better than using chemical pesticides?", "expected_documents": ["hdra-natural-pest-disease-control-en"]},
+    {"id": "h-en09", "language": "en", "question": "What are the essential nutrients required by plants?", "expected_documents": ["tnau-mineral-essential-elements-en", "tnau-mineral-essential-elements-ta", "tnau-mineral-deficiency-symptoms-en"]},
+    {"id": "h-en10", "language": "en", "question": "How can weeds be controlled in SRI paddy fields?", "expected_documents": ["tnau-rice-sri-weed-en", "tnau-rice-sri-weed-ta"]},
+    {"id": "h-ta01", "language": "ta", "question": "நெல் வயலில் எப்போது நீர் பாய்ச்ச வேண்டும்?", "expected_documents": ["tnau-rice-sri-irrigation-ta", "tnau-rice-sri-irrigation-en", "tnau-irrigation-critical-stages-ta", "tnau-irrigation-critical-stages-en"]},
+    {"id": "h-ta02", "language": "ta", "question": "குலைநோய் எந்தப் பூசணத்தால் ஏற்படுகிறது?", "expected_documents": ["tnau-rice-disease-blast-ta", "tnau-rice-disease-blast-en"]},
+    {"id": "h-ta03", "language": "ta", "question": "தண்டுத் துளைப்பானால் வெண்கதிர் ஏன் உருவாகிறது?", "expected_documents": ["tnau-rice-pest-stem-borer-ta", "tnau-rice-pest-yellow-stem-borer-en"]},
+    {"id": "h-ta04", "language": "ta", "question": "நெல்லுக்கான ஒருங்கிணைந்த பூச்சி மேலாண்மை முறைகள் யாவை?", "expected_documents": ["tnau-ipm-paddy-ta", "tnau-ipm-components-ta", "tnau-ipm-introduction-ta"]},
+    {"id": "h-ta05", "language": "ta", "question": "அங்கக உரங்கள் மண்ணுக்கு எப்படி உதவுகின்றன?", "expected_documents": ["tnau-nutrient-organic-matter-ta", "tnau-nutrient-inm-ta"]},
+    {"id": "h-ta06", "language": "ta", "question": "சொட்டு நீர்ப் பாசன அமைப்பின் பாகங்கள் என்ன?", "expected_documents": ["tnau-irrigation-drip-ta", "tnau-irrigation-drip-en"]},
+    {"id": "h-ta07", "language": "ta", "question": "பயிர்களில் ஊட்டச்சத்து குறைபாட்டை எப்படி கண்டறிவது?", "expected_documents": ["tnau-mineral-diagnosis-ta", "tnau-mineral-essential-elements-ta", "tnau-mineral-deficiency-symptoms-en"]},
+    {"id": "h-ta08", "language": "ta", "question": "இலைக்கருகல் நோயின் அறிகுறிகள் என்ன?", "expected_documents": ["tnau-rice-disease-blb-ta", "tnau-rice-disease-blb-en"]},
+    {"id": "h-ta09", "language": "ta", "question": "திருந்திய நெல் சாகுபடியில் எத்தனை நாள் வயதுடைய நாற்றுகளை நட வேண்டும்?", "expected_documents": ["tnau-rice-sri-nursery-ta", "tnau-rice-sri-nursery-en"]},
+    {"id": "h-ta10", "language": "ta", "question": "உவர் நீரைப் பாசனத்திற்குப் பயன்படுத்தலாமா?", "expected_documents": ["tnau-irrigation-water-quality-ta", "tnau-irrigation-water-quality-en"]},
+    {"id": "h-oos01", "language": "en", "question": "What is the best smartphone under 20000 rupees?", "expected_documents": []},
+    {"id": "h-oos02", "language": "en", "question": "How do I apply for a passport in India?", "expected_documents": []},
+    {"id": "h-oos03", "language": "en", "question": "How should I rear broiler chickens?", "expected_documents": [], "note": "poultry, not covered"},
+    {"id": "h-oos04", "language": "en", "question": "What is the price of tomatoes in Koyambedu market today?", "expected_documents": [], "note": "market prices, not covered"},
+    {"id": "h-oos05", "language": "ta", "question": "கணினியில் வைரஸை எப்படி நீக்குவது?", "expected_documents": []},
+    {"id": "h-oos06", "language": "ta", "question": "இன்றைய தங்கம் விலை என்ன?", "expected_documents": []},
+    {"id": "h-oos07", "language": "ta", "question": "மீன் வளர்ப்பை எப்படி தொடங்குவது?", "expected_documents": [], "note": "fisheries, not covered"},
+    {"id": "h-oos08", "language": "ta", "question": "கிரிக்கெட் போட்டியில் யார் வென்றார்கள்?", "expected_documents": []}
+  ]
+}

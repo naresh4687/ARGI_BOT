@@ -1,0 +1,426 @@
+{
+  "description": "Curated starter corpus for AgriBot AI. Every URL was checked to be reachable (HTTP 200) with substantive text on 2026-10-24. Titles are curated from each page's heading; the original HTML <title> is stored in each document's .meta.json after fetching. published_date is null because the pages do not state a publication date.",
+  "licensing_note": "The TNAU Agritech Portal disclaimer (https://agritech.tnau.ac.in/disclaimer_en.html) does not grant an explicit reuse licence; pages carry '© All Rights Reserved. TNAU'. Content is used here as attributed excerpts for non-commercial educational purposes. Obtain permission before redistributing the corpus publicly.",
+  "documents": [
+    {
+      "document_id": "tnau-irrigation-critical-stages-en",
+      "source_url": "https://agritech.tnau.ac.in/agriculture/agri_irrigationmgt_criticalstage.html",
+      "source_title": "Irrigation Management: Critical Stages for Irrigation",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "irrigation",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-irrigation-drip-en",
+      "source_url": "https://agritech.tnau.ac.in/agriculture/agri_irrigationmgt_dripirrigation.html",
+      "source_title": "Irrigation Management: Drip Irrigation",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "irrigation",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-irrigation-sprinkler-en",
+      "source_url": "https://agritech.tnau.ac.in/agriculture/agri_irrigationmgt_sprinklerirrigation.html",
+      "source_title": "Irrigation Management: Sprinkler Irrigation",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "irrigation",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-irrigation-water-quality-en",
+      "source_url": "https://agritech.tnau.ac.in/agriculture/agri_irrigationmgt_suitabilityofwater.html",
+      "source_title": "Irrigation Management: Suitability of Water for Irrigation",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "irrigation",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-nutrient-inm-en",
+      "source_url": "https://agritech.tnau.ac.in/agriculture/agri_nutrientmgt_integrntrientmgt.html",
+      "source_title": "Nutrient Management: Integrated Nutrient Management",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "nutrients",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-nutrient-application-methods-en",
+      "source_url": "https://agritech.tnau.ac.in/agriculture/agri_nutrientmgt_methodsoffertilizerappln.html",
+      "source_title": "Nutrient Management: Methods of Fertilizer Application",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "nutrients",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-nutrient-organic-matter-en",
+      "source_url": "https://agritech.tnau.ac.in/agriculture/agri_nutrientmgt_roleoforganicmatter.html",
+      "source_title": "Nutrient Management: Role of Organic Matter in Soil Fertility",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "soil",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-nutrient-fertilizer-tips-en",
+      "source_url": "https://agritech.tnau.ac.in/agriculture/agri_nutrientmgt_tipsforbetterfertilizeruse.html",
+      "source_title": "Nutrient Management: Tips for Better Fertilizer Use Efficiency",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "nutrients",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-mineral-essential-elements-en",
+      "source_url": "https://agritech.tnau.ac.in/agriculture/agri_min_nutri_essentialelements.html",
+      "source_title": "Mineral Nutrition: Essential Elements",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "nutrients",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-mineral-deficiency-symptoms-en",
+      "source_url": "https://agritech.tnau.ac.in/agriculture/agri_min_nutri_def_symptoms.html",
+      "source_title": "Mineral Nutrition: Nutrient Deficiency Symptoms",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "nutrients",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-mineral-diagnosis-en",
+      "source_url": "https://agritech.tnau.ac.in/agriculture/agri_min_nutri_diagnosis.html",
+      "source_title": "Mineral Nutrition: Diagnosing Plant Disorders",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "soil",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-crop-selection-en",
+      "source_url": "https://agritech.tnau.ac.in/agriculture/agri_cropselect.html",
+      "source_title": "Crop Production: Crop Selection",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "crop_management",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-rice-sri-nursery-en",
+      "source_url": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_rice_sri_nursery_mgmt.html",
+      "source_title": "Rice: System of Rice Intensification (SRI) – Nursery Management",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "crop_management",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-rice-sri-irrigation-en",
+      "source_url": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_rice_sri_irrigation_mgmt.html",
+      "source_title": "Rice: System of Rice Intensification (SRI) – Irrigation Management",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "irrigation",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-rice-sri-weed-en",
+      "source_url": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_rice_sri_weed_mgmt.html",
+      "source_title": "Rice: System of Rice Intensification (SRI) – Weed Management",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "crop_management",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-ipm-introduction-en",
+      "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_ipm_introduction.html",
+      "source_title": "Crop Protection: Integrated Pest Management – Introduction",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "pests",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-ipm-components-en",
+      "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_ipm_components.html",
+      "source_title": "Crop Protection: Integrated Pest Management – Components",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "pests",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-rice-pest-yellow-stem-borer-en",
+      "source_url": "https://agritech.tnau.ac.in/crop_protection/rice/crop_prot_crop_insectpest%20_cereals_paddy_m1.html",
+      "source_title": "Pests of Paddy: Yellow Stem Borer (Scirpophaga incertulas)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "pests",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-rice-pest-gall-midge-en",
+      "source_url": "https://agritech.tnau.ac.in/crop_protection/rice/crop_prot_crop_insectpest%20_cereals_paddy_m2.html",
+      "source_title": "Pests of Paddy: Gall Midge (Orseolia oryzae)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "pests",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-rice-pest-leaf-folder-en",
+      "source_url": "https://agritech.tnau.ac.in/crop_protection/rice/crop_prot_crop_insectpest%20_cereals_paddy_m5.html",
+      "source_title": "Pests of Paddy: Leaf Folder (Cnaphalocrocis medinalis)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "pests",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-rice-disease-blast-en",
+      "source_url": "https://agritech.tnau.ac.in/crop_protection/rice_diseases/rice_1.html",
+      "source_title": "Diseases of Rice: Blast (Magnaporthe oryzae)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "diseases",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-rice-disease-brown-spot-en",
+      "source_url": "https://agritech.tnau.ac.in/crop_protection/rice_diseases/rice_2.html",
+      "source_title": "Diseases of Rice: Brown Spot (Helminthosporium oryzae)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "diseases",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-rice-disease-blb-en",
+      "source_url": "https://agritech.tnau.ac.in/crop_protection/rice_diseases/rice_3.html",
+      "source_title": "Diseases of Rice: Bacterial Leaf Blight (Xanthomonas oryzae)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "diseases",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-rice-disease-sheath-blight-en",
+      "source_url": "https://agritech.tnau.ac.in/crop_protection/rice_diseases/rice_6.html",
+      "source_title": "Diseases of Rice: Sheath Blight (Rhizoctonia solani)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "en",
+      "topic": "diseases",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-irrigation-critical-stages-ta",
+      "source_url": "https://agritech.tnau.ac.in/ta/Agriculture/agri_irrigationmgt_criticalstage_ta.html",
+      "source_title": "நீர் மேலாண்மை: பாசனத்திற்கு முக்கியமான பருவங்கள் (Critical Stages for Irrigation)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "ta",
+      "topic": "irrigation",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-irrigation-drip-ta",
+      "source_url": "https://agritech.tnau.ac.in/ta/Agriculture/agri_irrigationmgt_dripirrigation_ta.html",
+      "source_title": "நீர் மேலாண்மை: சொட்டு நீர்ப் பாசனம் (Drip Irrigation)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "ta",
+      "topic": "irrigation",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-irrigation-water-quality-ta",
+      "source_url": "https://agritech.tnau.ac.in/ta/Agriculture/agri_irrigationmgt_suitabilityofwater_ta.html",
+      "source_title": "நீர் மேலாண்மை: பாசன நீரின் தகுதி (Suitability of Water for Irrigation)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "ta",
+      "topic": "irrigation",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-nutrient-inm-ta",
+      "source_url": "https://agritech.tnau.ac.in/ta/Agriculture/agri_nutrientmgt_integrntrientmgt_ta.html",
+      "source_title": "உர நிர்வாகம்: ஒருங்கிணைந்த ஊட்டச்சத்து மேலாண்மை (Integrated Nutrient Management)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "ta",
+      "topic": "nutrients",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-nutrient-fertilizer-tips-ta",
+      "source_url": "https://agritech.tnau.ac.in/ta/Agriculture/agri_nutrient_magmt_tipsforbetterferti_ta.html",
+      "source_title": "உர நிர்வாகம்: உரப் பயன்பாட்டுத் திறனை மேம்படுத்தும் குறிப்புகள் (Tips for Better Fertilizer Use)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "ta",
+      "topic": "nutrients",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-nutrient-organic-matter-ta",
+      "source_url": "https://agritech.tnau.ac.in/ta/Agriculture/agri_nutrient_magmt_roleoforganicmtr_ta.html",
+      "source_title": "உர நிர்வாகம்: மண் வளத்தில் அங்ககப் பொருட்களின் பங்கு (Role of Organic Matter)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "ta",
+      "topic": "soil",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-mineral-essential-elements-ta",
+      "source_url": "https://agritech.tnau.ac.in/ta/Agriculture/agri_min_nutri_essentialelements_ta.html",
+      "source_title": "தாவர ஊட்டச்சத்து: அத்தியாவசிய ஊட்டச்சத்துக்கள் (Essential Elements)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "ta",
+      "topic": "nutrients",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-mineral-diagnosis-ta",
+      "source_url": "https://agritech.tnau.ac.in/ta/Agriculture/agri_min_nutri_diagnosis_ta.html",
+      "source_title": "தாவர ஊட்டச்சத்து: தாவரச் சீர்குலைவுகளைக் கண்டறிதல் (Diagnosing Plant Disorders)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "ta",
+      "topic": "soil",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-rice-sri-nursery-ta",
+      "source_url": "https://agritech.tnau.ac.in/ta/Agriculture/agri_cropproduction_rice_sri_nursery_mgmt_ta.html",
+      "source_title": "திருந்திய நெல் சாகுபடி: நாற்றங்கால் மேலாண்மை (SRI Nursery Management)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "ta",
+      "topic": "crop_management",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-rice-sri-irrigation-ta",
+      "source_url": "https://agritech.tnau.ac.in/ta/Agriculture/agri_cropproduction_rice_sri_irrigation_mgmt_ta.html",
+      "source_title": "திருந்திய நெல் சாகுபடி: நீர் மேலாண்மை (SRI Irrigation Management)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "ta",
+      "topic": "irrigation",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-rice-sri-weed-ta",
+      "source_url": "https://agritech.tnau.ac.in/ta/Agriculture/agri_cropproduction_rice_sri_weed_mgmt_ta.html",
+      "source_title": "திருந்திய நெல் சாகுபடி: களை மேலாண்மை (SRI Weed Management)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "ta",
+      "topic": "crop_management",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-ipm-introduction-ta",
+      "source_url": "https://agritech.tnau.ac.in/ta/crop_protection/crop_prot_ipm_introduction_ta.html",
+      "source_title": "பயிர் பாதுகாப்பு: ஒருங்கிணைந்த பூச்சி மேலாண்மை – அறிமுகம் (IPM Introduction)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "ta",
+      "topic": "pests",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-ipm-components-ta",
+      "source_url": "https://agritech.tnau.ac.in/ta/crop_protection/crop_prot_ipm_components_ta.html",
+      "source_title": "பயிர் பாதுகாப்பு: ஒருங்கிணைந்த பூச்சி மேலாண்மை – கூறுகள் (IPM Components)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "ta",
+      "topic": "pests",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-ipm-paddy-ta",
+      "source_url": "https://agritech.tnau.ac.in/ta/crop_protection/crop_prot_ipm_paddy_ta.html",
+      "source_title": "பயிர் பாதுகாப்பு: நெல்லில் ஒருங்கிணைந்த பூச்சி மேலாண்மை (IPM for Paddy)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "ta",
+      "topic": "pests",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-rice-pest-stem-borer-ta",
+      "source_url": "https://agritech.tnau.ac.in/ta/crop_protection/rice/crop_prot_crop_rice_m1.html",
+      "source_title": "நெல் பயிரைத் தாக்கும் பூச்சிகள்: தண்டுத் துளைப்பான் (Yellow Stem Borer)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "ta",
+      "topic": "pests",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-rice-disease-blast-ta",
+      "source_url": "https://agritech.tnau.ac.in/ta/crop_protection/paddy_diseases/paddy_ta_1.html",
+      "source_title": "நெல் பயிரைத் தாக்கும் நோய்கள்: குலைநோய் (Blast)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "ta",
+      "topic": "diseases",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "tnau-rice-disease-blb-ta",
+      "source_url": "https://agritech.tnau.ac.in/ta/crop_protection/paddy_diseases/paddy_ta_3.html",
+      "source_title": "நெல் பயிரைத் தாக்கும் நோய்கள்: பாக்டீரியா இலைக்கருகல் நோய் (Bacterial Leaf Blight)",
+      "publisher": "Tamil Nadu Agricultural University (TNAU) Agritech Portal",
+      "language": "ta",
+      "topic": "diseases",
+      "format": "html",
+      "published_date": null
+    },
+    {
+      "document_id": "hdra-natural-pest-disease-control-en",
+      "source_url": "https://agritech.tnau.ac.in/crop_protection/natural%20pest%20and%20disease%20control.pdf",
+      "source_title": "Natural Pest and Disease Control",
+      "publisher": "HDRA – the organic organisation (hosted on the TNAU Agritech Portal)",
+      "language": "en",
+      "topic": "pests",
+      "format": "pdf",
+      "published_date": null
+    }
+  ]
+}

@@ -1,0 +1,680 @@
+[
+  {
+    "id": "en01",
+    "question": "What are the symptoms of rice blast disease?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 55677,
+    "answer": "The symptoms of rice blast disease, caused by *Magnaporthe oryzae*, appear at all stages of rice growth, from seedlings to late tillering and ear heading [S1]. \n\nHere’s what you can expect to see:\n\n* Small bluish-green flecks on the leaves [S1].\n* Lesions on leaves, nodes, the rachis, and glumes [S1].\n* Brown to dark brown lesions on the branches of the panicles and spikelet pedicels [S2].\n* In severe cases, the fungus can girdle the neck and panicle, causing them to fall over [S2].\n* Grain quality can be poor if infection occurs early [S2].\n\nIt’s important to note that the size and shape of the spots can vary depending on the rice variety [S2].\n\nRegarding other diseases, sheath blight caused by *Rhizoctonia solani* initially appears on leaf sheaths near the water level [S3], while bacterial leaf blight caused by *Xanthomonas oryzae* presents with leaf blight, kresek, and pale-yellow leaves [S4].\n\nGeneral note: It is important to correctly identify the disease to implement the right management strategies. Please consult with your local agricultural extension officer or Krishi Vigyan Kendra (KVK) for accurate diagnosis and further advice.",
+    "warnings": [],
+    "cited_sources": [
+      "Diseases of Rice: Blast (Magnaporthe oryzae)",
+      "Diseases of Rice: Blast (Magnaporthe oryzae)",
+      "Diseases of Rice: Sheath Blight (Rhizoctonia solani)",
+      "Diseases of Rice: Bacterial Leaf Blight (Xanthomonas oryzae)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "good",
+      "notes": "Blast symptoms correct and cited. Drifts into a paragraph on sheath blight and BLB (correctly labelled as other diseases, but off-topic)."
+    }
+  },
+  {
+    "id": "en02",
+    "question": "What are the advantages of drip irrigation?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 39907,
+    "answer": "Here’s information on the advantages of drip irrigation, based on the provided passages:\n\nDrip irrigation offers several benefits:\n\n* **Water Savings:** It can save 50 to 65% of water compared to traditional methods [S2].\n* **Improved Crop Quality & Yield:** Drip irrigation leads to increased crop quality and yield [S2].\n* **Fruit Size:** It results in high-quality and increased fruit size [S1, S2].\n* **Suitable for All Soil Types:** Drip irrigation is suitable for all types of soil [S1, S2].\n* **Fertigation & Chemigation:** It allows for easy fertigation and chemigation [S1].\n* **Reduced Labour:** It saves labour and field preparation costs [S1].\n* **Weed Control:** Fertilizer placement minimizes weed use [S3].\n\nHowever, there are also some disadvantages:\n\n* **Initial Investment:** It requires a high initial investment [S1].\n* **Clogging:** Emitters can clog [S1].\n* **Damage:** System components can be damaged by animals [S1].\n\nGeneral note: Drip irrigation involves delivering water directly to the roots of plants, which is a more efficient method than traditional watering. It’s important to maintain the system to prevent clogging and damage. Please consult your local agricultural extension officer or Krishi Vigyan Kendra (KVK) for specific advice tailored to your situation.",
+    "warnings": [],
+    "cited_sources": [
+      "Irrigation Management: Drip Irrigation",
+      "Irrigation Management: Drip Irrigation",
+      "Nutrient Management: Methods of Fertilizer Application"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "good",
+      "notes": "Advantages/disadvantages correct. 'Weed control' bullet comes from a fertilizer-placement passage [S3] and is misattributed to drip irrigation."
+    }
+  },
+  {
+    "id": "en03",
+    "question": "How can I improve fertilizer use efficiency?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 34685,
+    "answer": "To improve fertilizer use efficiency, you should base your fertiliser scheduling on a soil test [S1]. \n\nSelection of fertilisers should be done according to the soil reaction – using acidic fertilisers for alkaline soils and basic fertilisers for acidic soil reactions [S1].\n\nLiquid fertilizers can be applied by placing them 3-4 cm near the seed or at the base of the plant [S4]. This helps plants remain healthy and absorb nutrients from the field [S2].\n\nThe methods of fertilizer application listed in S3 include: iii) Residual response of fertilizers is usually higher. iv) Utilization of fertilizers by the plants is higher. v) Loss of nitrogen by leaching is reduced. vi) Being immobile, phosphates are better utilized when placed.\n\nGeneral note: It’s important to consult with your local agricultural extension officer or Krishi Vigyan Kendra (KVK) for specific recommendations tailored to your region and crop.",
+    "warnings": [
+      "The answer contains quantities not found in the retrieved sources (3-4 cm). Do not rely on them; check the product label or your local agricultural officer."
+    ],
+    "cited_sources": [
+      "Nutrient Management: Tips for Better Fertilizer Use Efficiency",
+      "Nutrient Management: Tips for Better Fertilizer Use Efficiency",
+      "உர நிர்வாகம்: உரப் பயன்பாட்டுத் திறனை மேம்படுத்தும் குறிப்புகள் (Tips for Better Fertilizer Use)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "fair",
+      "notes": "Soil-test and soil-reaction tips correct. '3-4 cm' placement is attributed to liquid fertilizers (source says solid fertilizers near seed); quantity warning fired. Pastes a raw 'iii) iv) v)' list from an unrelated passage."
+    }
+  },
+  {
+    "id": "en04",
+    "question": "What are the components of integrated pest management?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 37555,
+    "answer": "Integrated pest management (IPM) has several key components. Here’s what the passages tell us:\n\n* **Biological Control:** IPM utilizes living organisms to manage pests [S1, S2]. This includes using parasitoids, predators, and pathogens to keep pest populations below damaging levels.\n* **Conservation:** A vital part of biological control is protecting natural enemies already present in the field [S2]. Practices like bird perches, mulching, and trap installation are used for this [S4].\n* **Augmentation:** This involves releasing non-native natural enemies if needed, but with extreme caution [S4].\n* **Chemical Control:** Pesticides are used as a last resort when other methods aren’t effective enough to reduce pest populations below economically damaging levels [S3].\n\nGeneral note: IPM aims to minimize pesticide use by combining different control strategies. It’s best to consult with your local agricultural extension officer or Krishi Vigyan Kendra (KVK) for specific advice tailored to your situation.",
+    "warnings": [],
+    "cited_sources": [
+      "Crop Protection: Integrated Pest Management – Components",
+      "Crop Protection: Integrated Pest Management – Components",
+      "Crop Protection: Integrated Pest Management – Introduction",
+      "Crop Protection: Integrated Pest Management – Introduction"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "good",
+      "notes": "Biological control, conservation and chemical control supported. Conflates augmentation with releasing non-native agents; cultural/mechanical components missing (not in retrieved passages)."
+    }
+  },
+  {
+    "id": "en05",
+    "question": "How do I identify yellow stem borer damage in paddy?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 31843,
+    "answer": "To identify yellow stem borer damage in paddy, here’s what you should look for: [S1]\n\n* **Brown egg masses:** You’ll notice creamy white, flat, oval egg masses near the leaf tips [S2].\n* **“Dead heart”:** The larvae bore into the central shoot of the paddy seedling and tiller, causing the central shoot to dry up – this is known as “dead heart” [S1].\n* **“White ear”:** If the infestation occurs in a grown-up plant, the entire panicle will dry out and become “white ear” [S1, S2].\n\nThe larvae themselves are pale yellow with a dark brown head [S2], and the pupa is yellowish-white with a green tie enclosed in a whiteish silken cocoon inside the stem [S2].\n\nIf you are unsure about the identification, please consult with your local agricultural extension officer or Krishi Vigyan Kendra (KVK). [S1, S3]\n\nGeneral note: Early detection is key to managing pest infestations effectively.",
+    "warnings": [],
+    "cited_sources": [
+      "Pests of Paddy: Yellow Stem Borer (Scirpophaga incertulas)",
+      "Pests of Paddy: Yellow Stem Borer (Scirpophaga incertulas)",
+      "Pests of Paddy: Leaf Folder (Cnaphalocrocis medinalis)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "good",
+      "notes": "Dead heart / white ear correct. Mixes the brown egg mass (S1) with 'creamy white' eggs (S2) in one bullet; spurious [S1, S3] citation on the KVK advice."
+    }
+  },
+  {
+    "id": "en06",
+    "question": "At which crop stages is irrigation most critical?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 33341,
+    "answer": "Irrigation is most critical at several key stages for different crops. \n\n* **Wheat** requires irrigation during the boot stage and dough stage [S1]. It’s also a very important stage for flowering and grain formation [S1].\n* **Berseem** needs irrigation after each cutting [S2].\n* **Gram** needs irrigation during pre-flowering and flowering stages [S2].\n* **Pigeonpea** is critical during flower initiation and pod filling [S2].\n* **Sorghum** is most critical during the initial seedling stage, pre-flowering, flowering, and grain formation [S2].\n* **Barley** requires irrigation during the boot and dough stages [S1].\n* **Maize** is critical during the early vegetative, tasseling, and silking stages [S2].\n* **Rice** is critical during initial tillering and flowering [S1, S4].\n\n[S3] and [S4] also highlight the importance of irrigation during flowering and grain formation for crops like wheat and sorghum, respectively.\n\nGeneral note: It’s important to monitor soil moisture levels and adjust irrigation accordingly to avoid over or under-watering. Please consult your local agricultural extension officer or Krishi Vigyan Kendra (KVK) for specific advice tailored to your region and crop.",
+    "warnings": [],
+    "cited_sources": [
+      "Irrigation Management: Critical Stages for Irrigation",
+      "Irrigation Management: Critical Stages for Irrigation",
+      "நீர் மேலாண்மை: பாசனத்திற்கு முக்கியமான பருவங்கள் (Critical Stages for Irrigation)",
+      "நீர் மேலாண்மை: பாசனத்திற்கு முக்கியமான பருவங்கள் (Critical Stages for Irrigation)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "good",
+      "notes": "All crop/stage pairs match the source table."
+    }
+  },
+  {
+    "id": "en07",
+    "question": "What is integrated nutrient management?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 29734,
+    "answer": "Integrated Nutrient Management (INM) is about maintaining soil fertility and plant nutrient supply at the best level to ensure high productivity [S1, S2]. \n\nHere’s what it involves, according to the passages:\n\n* It uses all possible sources of nutrients – organic, inorganic, and biological – in a combined way [S1].\n* It makes applied and native soil nutrients more available [S2].\n* It matches the crop’s nutrient needs with nutrients from the soil and added sources [S2].\n* It provides balanced nutrition to crops and reduces negative effects from nutrient imbalances [S2].\n* It improves and keeps the soil healthy – physically, chemically, and biologically [S2].\n* It encourages the use of natural nutrients already in the soil [S4].\n* It combines the crop’s nutrient needs with nutrients from both natural and artificial sources [S4].\n\nThe passages also mention using specific crop varieties, farming methods, and crop arrangement plans [S3, S4].\n\nGeneral note: Integrated Nutrient Management is a holistic approach to feeding crops, considering all available nutrient sources for optimal plant health and yield.",
+    "warnings": [],
+    "cited_sources": [
+      "Nutrient Management: Integrated Nutrient Management",
+      "Nutrient Management: Integrated Nutrient Management",
+      "உர நிர்வாகம்: ஒருங்கிணைந்த ஊட்டச்சத்து மேலாண்மை (Integrated Nutrient Management)",
+      "உர நிர்வாகம்: ஒருங்கிணைந்த ஊட்டச்சத்து மேலாண்மை (Integrated Nutrient Management)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "good",
+      "notes": "Faithful to source."
+    }
+  },
+  {
+    "id": "en08",
+    "question": "How should water be managed in SRI rice cultivation?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 29391,
+    "answer": "Here’s how water management should be handled in SRI rice cultivation, according to the provided passages:\n\n* Initially, irrigation should only moisten the soil for about 10 days [S1].\n* After this, restore irrigation to a maximum depth of 2.5cm, but only when you see hairline cracks in the soil, and continue until the panicle initiation stage [S1].\n* Following panicle initiation (PI), increase the irrigation depth to 5.0cm, one day after the ponded water has disappeared [S1, S2].\n* Using a water pipe system that allows for alternating wetting and drying (AWDI) can reduce the overall amount of irrigation needed [S2]. This involves irrigating until hairline cracks appear in the soil [S2].\n\n* Water the seedling mats two days before transplanting [S3].\n\nGeneral note: SRI rice cultivation focuses on efficient water use through controlled irrigation techniques. It’s important to monitor the soil and adjust irrigation accordingly. Consult your local agricultural extension officer or Krishi Vigyan Kendra (KVK) for specific advice tailored to your region.",
+    "warnings": [],
+    "cited_sources": [
+      "Rice: System of Rice Intensification (SRI) – Irrigation Management",
+      "Rice: System of Rice Intensification (SRI) – Irrigation Management",
+      "Rice: System of Rice Intensification (SRI) – Nursery Management"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "good",
+      "notes": "SRI irrigation schedule correct. Extra bullet 'water the seedling mats two days before transplanting' inverts the source, which says to DRAIN the water 2 days before."
+    }
+  },
+  {
+    "id": "en09",
+    "question": "What are the symptoms of bacterial leaf blight in rice?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 30404,
+    "answer": "The symptoms of bacterial leaf blight in rice are as follows:\n\n* **Leaf blight:** This is the most distinct symptom [S1, S2].\n* **Kresek (seedling blight or wilt phase):** This appears in seedlings [S2].\n* **Pale-yellow leaf:** This symptom is also observed [S1].\n* **Circular, yellow spots:** These appear in the margins of seedlings and enlarge [S2].\n* **Greenish grey spots:** These form on leaf sheaths near the water level [S3].\n* **Lesions:** Large lesions can form on leaf sheaths, potentially leading to the death of the entire leaf [S4].\n* **Severe cases:** In severe cases, all leaves of a plant may be blighted [S4].\n\nIt is important to note that these symptoms can be caused by several factors. Please consult with your local agricultural extension officer or Krishi Vigyan Kendra (KVK) for a definitive diagnosis.\n\nGeneral note: It is crucial to accurately identify the disease affecting your rice crop to implement the correct management strategies.",
+    "warnings": [],
+    "cited_sources": [
+      "Diseases of Rice: Bacterial Leaf Blight (Xanthomonas oryzae)",
+      "Diseases of Rice: Bacterial Leaf Blight (Xanthomonas oryzae)",
+      "Diseases of Rice: Sheath Blight (Rhizoctonia solani)",
+      "Diseases of Rice: Sheath Blight (Rhizoctonia solani)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "no",
+      "language_quality": "good",
+      "notes": "Lists sheath blight symptoms (greenish grey spots near water level, lesions on leaf sheath; passages S3/S4) as bacterial leaf blight symptoms. Factual error caused by an off-topic passage."
+    }
+  },
+  {
+    "id": "en10",
+    "question": "Why is organic matter important for soil fertility?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 25529,
+    "answer": "Organic matter is important for soil fertility for several reasons. [S1] It comes from sources like dead plant roots, crop residues, and organic manures such as farmyard manure and compost. [S2] It regulates soil temperature and acts as a source of essential nutrients like nitrogen, phosphorus, and sulfur.\n\nFurthermore, organic matter helps to reduce soil erosion by wind and water [S2, S3]. It also improves the soil’s ability to hold water, particularly in sandy soils [S3]. The buffering nature of organic matter is beneficial for managing pesticides and heavy metals [S2].\n\nFinally, caring for the soil involves providing regular inputs of organic residues, like animal manures and plant remains [S4]. This supports the millions of creatures that call the soil home.\n\nGeneral note: Maintaining soil health is crucial for overall crop productivity.",
+    "warnings": [],
+    "cited_sources": [
+      "Nutrient Management: Role of Organic Matter in Soil Fertility",
+      "Nutrient Management: Role of Organic Matter in Soil Fertility",
+      "உர நிர்வாகம்: மண் வளத்தில் அங்ககப் பொருட்களின் பங்கு (Role of Organic Matter)",
+      "Natural Pest and Disease Control"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "good",
+      "notes": "Supported; citations sometimes placed before rather than after the sentence."
+    }
+  },
+  {
+    "id": "en11",
+    "question": "What does nitrogen deficiency look like in plants?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 17370,
+    "answer": "Nitrogen deficiency in plants typically presents with light green leaf and plant color [S2]. Older leaves will turn yellow and eventually brown and die [S2]. You may also notice slow plant growth and that the plants are stunted [S2]. Furthermore, plants may mature early [S2].\n\nGeneral note: Nitrogen is a key component of chlorophyll, so its deficiency significantly impacts plant growth and appearance. It is important to consult with a local agricultural extension officer or Krishi Vigyan Kendra (KVK) for a proper diagnosis and recommendations.",
+    "warnings": [],
+    "cited_sources": [
+      "Mineral Nutrition: Nutrient Deficiency Symptoms"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "good",
+      "notes": "Faithful to source."
+    }
+  },
+  {
+    "id": "en12",
+    "question": "How do I check whether my well water is suitable for irrigation?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 31719,
+    "answer": "To check if your well water is suitable for irrigation, you need to assess its quality based on several factors [S1, S2].\n\nHere’s what you should look for:\n\n* **Salts:** The suitability of irrigation water depends on the amounts and types of salts present [S1]. The main salts are calcium, magnesium, sodium (cations) and chloride, sulphate, and bicarbonate (anions).\n* **Boron:** Specifically, the boron content is important [S2]. Irrigation water with more than 3 ppm of boron is harmful, especially on light soils.\n* **Classification:** Based on boron content, water is classified as follows:\n * B1: B1 – 4 ppm – Normal waters\n * B2: 4 – 5 ppm – Low boron waters\n * B3: 5 – 10 ppm – Medium boron waters\n * B4: › 10 ppm – Boron waters\n\nTo determine your water’s suitability, you need to test it for boron content [S2].\n\nGeneral note: It’s best to consult with a local agricultural extension officer or Krishi Vigyan Kendra (KVK) for detailed water testing and advice specific to your region and crops.",
+    "warnings": [
+      "The answer contains quantities not found in the retrieved sources (1 – 4 ppm, 10 ppm, 4 – 5 ppm, 5 – 10 ppm). Do not rely on them; check the product label or your local agricultural officer."
+    ],
+    "cited_sources": [
+      "Irrigation Management: Suitability of Water for Irrigation",
+      "Irrigation Management: Suitability of Water for Irrigation"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "good",
+      "notes": "Salt and 3 ppm boron statements correct. Boron class table misaligned (source: B1 <3, B2 3-4, B3 4-5, B4 5-10, B5 >10 ppm); quantity warning correctly fired."
+    }
+  },
+  {
+    "id": "en13",
+    "question": "How can companion planting reduce pest problems?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 26052,
+    "answer": "Companion planting can help reduce pest problems in your crops [S1]. It involves growing certain plants alongside your main crop to either deter pests or attract beneficial insects [S1]. \n\nSpecifically, planting onions alongside carrots can help to deter carrot flies [S1]. The passage states you need to sow 4 rows of onions for every 1 row of carrots [S1].\n\nAdditionally, you can use attractant plants to draw in predators and parasites that feed on pests [S2]. Natural habitats like bushes and trees also provide shelter and food for these beneficial insects and birds [S2].\n\nIt’s important to note that if other methods fail to control pests [S3], pesticides may still be necessary.\n\nFinally, other strategies like adjusting sowing times, rotating crops, proper plant spacing, and using fertilizer can also contribute to pest suppression [S4].\n\nGeneral note: Integrated pest management is a comprehensive approach to crop protection that combines various techniques.",
+    "warnings": [],
+    "cited_sources": [
+      "Natural Pest and Disease Control",
+      "Natural Pest and Disease Control",
+      "Crop Protection: Integrated Pest Management – Components",
+      "Crop Protection: Integrated Pest Management – Components"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "good",
+      "notes": "Faithful to source."
+    }
+  },
+  {
+    "id": "en14",
+    "question": "What are the symptoms of sheath blight in paddy?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 28591,
+    "answer": "The symptoms of sheath blight in paddy are as follows:\n\n* Initially, greenish grey spots appear on the leaf sheaths near the water level [S1].\n* The fungus affects the crop from tillering to heading stage [S1].\n* Large lesions can form on a leaf sheath, potentially leading to the death of the entire leaf [S2].\n* In severe cases, all the leaves of a plant may be blighted [S2].\n* The infection can extend to the inner sheaths, resulting in the death of the entire plant [S2].\n* Older plants are more susceptible to this disease [S2].\n\nIt is important to note that bacterial leaf blight also presents with similar symptoms, including leaf blight and pale-yellow leaves [S3, S4].\n\nGeneral note: It is crucial to accurately identify the disease to implement the correct management strategies. Please consult with your local agricultural extension officer or Krishi Vigyan Kendra (KVK) for further diagnosis and advice.",
+    "warnings": [],
+    "cited_sources": [
+      "Diseases of Rice: Sheath Blight (Rhizoctonia solani)",
+      "Diseases of Rice: Sheath Blight (Rhizoctonia solani)",
+      "Diseases of Rice: Bacterial Leaf Blight (Xanthomonas oryzae)",
+      "Diseases of Rice: Bacterial Leaf Blight (Xanthomonas oryzae)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "good",
+      "notes": "Sheath blight symptoms correct. Claims BLB has 'similar symptoms', which the passages do not say."
+    }
+  },
+  {
+    "id": "ta01",
+    "question": "நெல்லில் குலைநோயின் அறிகுறிகள் என்ன?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 22188,
+    "answer": "குலைநோயின் அறிகுறிகள் பின்வருமாறு:\n\nகுலைநோய் (Blast) என்பது நெல்லில் பைரிகுலேரியா ஒரைசே (Magnaporthe oryzae) எனும் பூசணத்தால் ஏற்படுகிறது [S1]. இந்த நோயின் அறிகுறிகள் பயிரின் அனைத்து பகுதிகளிலும் காணப்படுகின்றன - அதாவது இலைகள், தண்டு, கணுப்பகுதி, கழுத்துப் பகுதி மற்றும் கதிர் என அனைத்து இடங்களிலும் பூசணத்தால் தாக்கப்பட்டிருக்கும் [S1]. நோயின்போது, இலைகள் மெலிந்து காணப்படும் [S2].\n\nGeneral note: குலைநோய் என்பது நெல் பயிரில் ஏற்படும் ஒரு முக்கியமான நோயாகும். இது பயிரின் விளைச்சலைக் குறைக்கும்.",
+    "warnings": [],
+    "cited_sources": [
+      "நெல் பயிரைத் தாக்கும் நோய்கள்: குலைநோய் (Blast)",
+      "நெல் பயிரைத் தாக்கும் நோய்கள்: குலைநோய் (Blast)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "good",
+      "notes": "Pathogen and affected plant parts correct. 'Leaves become thin [S2]' is taken from a cut-off fragment; misses the eye-shaped spot description (not retrieved)."
+    }
+  },
+  {
+    "id": "ta02",
+    "question": "சொட்டு நீர்ப் பாசனத்தின் நன்மைகள் என்ன?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 27241,
+    "answer": "சட்டோ நீர்ப் பாசனத்தின் நன்மைகள் என்னவென்று பார்ப்போம்.\n\n[S1] இந்த உரையில், 75,000 பூசணி வகைகள் 1-2 3-6 15 54 1.20 75,000 என்று குறிப்பிடப்பட்டுள்ளது. இது சொட்டு நீர்ப் பாசனத்தின் பயன்பாட்டை காட்டுகிறது.\n\nசட்டோ நீர்ப் பாசனம் பல நன்மைகளைக் கொண்டுள்ளது. குறிப்பாக, இது நீரின் பயன்பாட்டை மேம்படுத்துகிறது [S1]. மேலும், இது பயிர்களுக்குத் தேவையான நீரை நேரடியாக வேர் பகுதிக்குக் கொண்டு சேர்க்கிறது, இதனால் நீர் வீணாவது குறைகிறது [S1].\n\nசட்டோ நீர்ப் பாசனம் மூலம், பயிர்களுக்குத் தேவையான சத்துக்களும் சரியான அளவில் கொடுக்க முடியும் [S1].\n\nசட்டோ நீர்ப் பாசனத்தின் முழுமையான நன்மைகள் குறித்து மேலும் அறிய, உங்கள் உள்ளூர் வேளாண்மை விரிவாக்க அதிகாரி அல்லது கிருஷி விக்யான் களம் (KVK) ஆகியோரை அணுகவும்.\n\nGeneral note: சொட்டு நீர்ப் பாசனம் என்பது, தண்ணீரை நேரடியாக தாவரத்தின் வேர்களுக்குக் கொடுக்கும் ஒரு நவீன விவசாய முறையாகும். இது தண்ணீரைச் சேமிக்க உதவுகிறது.",
+    "warnings": [],
+    "cited_sources": [
+      "நீர் மேலாண்மை: சொட்டு நீர்ப் பாசனம் (Drip Irrigation)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "no",
+      "language_quality": "poor",
+      "notes": "Only passage retrieved is a table fragment of numbers; model misreads it ('75,000 pumpkin varieties') and fills the rest from its own knowledge with fake [S1] citations. Misspells சொட்டு as சட்டோ. Tamil KVK name mistranslated (கிருஷி விக்யான் ...)."
+    }
+  },
+  {
+    "id": "ta03",
+    "question": "திருந்திய நெல் சாகுபடியில் நாற்றங்கால் எப்படி தயார் செய்வது?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 25344,
+    "answer": "சரி, திருந்திய நெல் சாகுபடியில் நாற்றங்கால் தயார் செய்வது எப்படி என்று பார்ப்போம்.\n\nஎக்கரில் நடுவதற்கு 100 மீட்டர் நீளமுள்ள நாற்றங்கால் தயார் செய்ய வேண்டும் [S1]. சமமான நிலத்தை நீர் ஆதாரத்திற்கு அருகில் தேர்ந்தெடுக்க வேண்டும் [S1]. ஒரு குத்துக்கு 7-8 கிலோ விதைகள் மற்றும் ஒரு ஏக்கருக்கு இரண்டு குத்துகள் தேவைப்படும் [S2]. நாற்றங்கால் நிலத்தைத் தயார் செய்தல் என்பது ஏக்கரில் நடுவதற்கு 100 மீட்டர் நாற்றங்கால் தயார் செய்வதாகும் [S1].\n\nமண்ணுக்கு காற்றோட்டம் அளிப்பது முக்கியம் [S3]. வேர்களுக்கு அருகில் உள்ள களைகளை அகற்ற வேண்டும் [S3].\n\nGeneral note: நாற்றங்கால் தயார் செய்யும் போது, உங்கள் உள்ளூர் வேளாண்மை விரிவாக்க அதிகாரி அல்லது Krishi Vigyan Kendra (KVK) ஆகியவற்றின் ஆலோசனையைப் பெறுவது நல்லது.",
+    "warnings": [],
+    "cited_sources": [
+      "திருந்திய நெல் சாகுபடி: நாற்றங்கால் மேலாண்மை (SRI Nursery Management)",
+      "திருந்திய நெல் சாகுபடி: நாற்றங்கால் மேலாண்மை (SRI Nursery Management)",
+      "திருந்திய நெல் சாகுபடி: களை மேலாண்மை (SRI Weed Management)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "fair",
+      "notes": "Copies '100 மீட்டர்' (source lost the m²). Misreads the seed-rate table as '7-8 kg per hill and two hills per acre'."
+    }
+  },
+  {
+    "id": "ta04",
+    "question": "ஒருங்கிணைந்த ஊட்டச்சத்து மேலாண்மை என்றால் என்ன?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 22713,
+    "answer": "ஒருங்கிணைந்த ஊட்டச்சத்து மேலாண்மை (Integrated Nutrient Management) என்பது என்னவென்று கேட்கிறீர்கள். இதற்கான பதில் இதோ:\n\nஒருங்கிணைந்த ஊட்டச்சத்து மேலாண்மை என்பது, பயிருக்குத் தேவையான ஊட்டச்சத்துக்களைத் தீர்மானிப்பதுடன், மண்ணின் தற்போதைய நிலவரத்தையும், மண்ணின் குறைகளைத் தீர்க்கக்கூடிய சிறப்பு மேலாண்மையையும் உள்ளடக்கியது [S1]. அதாவது, பயிரிடும்போது மண்ணுக்குத் தேவையான ஊட்டச்சத்துக்களை முதலில் கண்டுபிடிக்க வேண்டும். மேலும், மண்ணில் உள்ள ஊட்டச்சத்து குறைபாடுகளைக் கண்டறிந்து, அதற்கேற்ப சரியான மேலாண்மை முறைகளைத் தேர்ந்தெடுக்க வேண்டும் [S1]. இது, ஊட்டச்சத்து ஆதாரங்கள் எங்கிருந்து கிடைக்கும் என்பதை அறிந்துகொள்வதையும் உள்ளடக்கியது [S1].\n\nGeneral note: ஒருங்கிணைந்த ஊட்டச்சத்து மேலாண்மை என்பது, மண்ணின் வளத்தை மேம்படுத்தவும், பயிர்களுக்குத் தேவையான ஊட்டச்சத்துக்களைச் சரியான அளவில் வழங்கவும் உதவும் ஒரு முறையாகும்.",
+    "warnings": [],
+    "cited_sources": [
+      "உர நிர்வாகம்: ஒருங்கிணைந்த ஊட்டச்சத்து மேலாண்மை (Integrated Nutrient Management)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "fair",
+      "notes": "Supported; repetitive phrasing."
+    }
+  },
+  {
+    "id": "ta05",
+    "question": "நெல்லில் தண்டுத் துளைப்பான் தாக்குதலின் அறிகுறிகள் என்ன?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 26104,
+    "answer": "தண்டுத் துளைப்பான் தாக்குதலின் அறிகுறிகள் பின்வருமாறு: [S1] தழைப்பருவத்தில் புழுக்கள் தண்டுகளில் நுழைந்து வளரும் தண்டுகளை உட்கொள்வதால் அதன் நடுப்பகுதி காய்ந்துவிடும். [S4] மேலும், இலையின் நுனியில் பழுப்பு நிற முட்டைக் கூட்டம் காணப்படும் என்றும் கூறப்பட்டுள்ளது.\n\nGeneral note: தண்டுத் துளைப்பான் தாக்குதலைக் கட்டுப்படுத்த, டிரைக்கோடெர்மா ஜப்பானிக்கம் கரைசலை பயன்படுத்தலாம். உங்கள் பகுதியில் உள்ள வேளாண்மை விரிவாக்க அலுவலர் அல்லது கிருஷி விக்யான் மத்திய நிலையத்தை (KVK) அணுகி ஆலோசனைப் பெறவும்.",
+    "warnings": [],
+    "cited_sources": [
+      "நெல் பயிரைத் தாக்கும் பூச்சிகள்: தண்டுத் துளைப்பான் (Yellow Stem Borer)",
+      "நெல் பயிரைத் தாக்கும் பூச்சிகள்: தண்டுத் துளைப்பான் (Yellow Stem Borer)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "good",
+      "notes": "Symptoms correct. General note repeats the passage's biocontrol agent without citation (source itself writes Trichoderma for Trichogramma). Tamil KVK name mistranslated (கிருஷி விக்யான் ...)."
+    }
+  },
+  {
+    "id": "ta06",
+    "question": "பாக்டீரியா இலைக்கருகல் நோயை எப்படி கண்டறிவது?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 29105,
+    "answer": "பாக்டீரியா இலைக்கருகல் நோயை கண்டறியும் முறை:\n\nபயிர் பாதுகாப்பு:: நெல் பயிரைத் தாக்கும் நோய்கள் பாக்டீரியா இலைக்கருகல் நோய் அறிகுறிகள் பின்வருமாறு: [S1]\n* இலைப்பரப்பின் மீது நீரில் நனைத்தது போன்று மஞ்சள் நிற வரிகளுடன் காணப்படும்.\n* இலை நுனிகள் அலை வடிவ ஓரத்துடன் மாறும்.\n\nஇந்த அறிகுறிகளை வைத்து பாக்டீரியா இலைக்கருகல் நோயை கண்டறியலாம். [S1]\n\nஇந்த நோயை கட்டுப்படுத்த, தாமிர பூசணக் கொல்லிகளை (ஸ்ட்ரெப்டோசைக்லின் (250 பிபிஎம்)) இலைவழி மூலம் அளிக்கலாம் [S2]. பாசன நீருடன் கலந்து இந்த கரைசலை அளிக்கலாம்.\n\nநோய் பரவலை தடுக்க, இந்த முறையைப் பயன்படுத்தவும். இருப்பினும், நோயின் சரியான காரணத்தைக் கண்டறிய, உங்கள் உள்ளூர் வேளாண்மை விரிவாக்க அதிகாரி அல்லது கிருஷி விக்யான் களம் (KVK) ஆகியவற்றின் உதவியை நாடுவது நல்லது. \n\nGeneral note: நோயறிதலுக்கு ஒரு தாவரவியல் நிபுணரின் ஆலோசனை எப்போதும் சிறந்தது.",
+    "warnings": [],
+    "cited_sources": [
+      "நெல் பயிரைத் தாக்கும் நோய்கள்: பாக்டீரியா இலைக்கருகல் நோய் (Bacterial Leaf Blight)",
+      "நெல் பயிரைத் தாக்கும் நோய்கள்: பாக்டீரியா இலைக்கருகல் நோய் (Bacterial Leaf Blight)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "fair",
+      "notes": "Symptoms correct. Merges 'copper fungicides OR streptocycline' into one product; attaches 'mix with irrigation water' from an unrelated truncated item. Tamil KVK name mistranslated (கிருஷி விக்யான் ...)."
+    }
+  },
+  {
+    "id": "ta07",
+    "question": "ஒருங்கிணைந்த பூச்சி மேலாண்மையின் கூறுகள் யாவை?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 37743,
+    "answer": "ஒருங்கிணைந்த பூச்சி மேலாண்மையின் கூறுகள் பின்வருமாறு:\n\nஒருங்கிணைந்த பூச்சி மேலாண்மை என்பது பொருளாதார, சுகாதார மற்றும் சுற்றுச்சூழல் பிரச்சினைகளைக் குறைக்கும் வகையில் உயிரியல், பாரம்பரிய, இயற்பியல் மற்றும் இரசாயன கருவிகளை இணைக்கும் ஒரு நிலையான அணுகுமுறையாகும் [S2]. இது பல்வேறு முறைகளை உள்ளடக்கியது.\n\n* உழவியல் முறைகள் [S1]\n* ஒழுங்கு நடைமுறைகள்\n* இயந்திர முறைகள்\n* மரபு சார்ந்த முறைகள்\n* உயிரியல் முறைகள் - இதில் பூச்சிகள் மற்றும் நோய்களைக் கட்டுப்படுத்துவது அடங்கும் [S3]. உயிர்ம கட்டுப்பாடு என்பது வாழும் உயிரினங்களைப் பயன்படுத்தி தேவையற்ற பூச்சிகளை கட்டுப்படுத்துவதாகும் [S3].\n* இரசாயன முறைகள்\n\nமேலும், ஒருங்கிணைந்த பூச்சி மேலாண்மையில் பின்வரும் கொள்கைகள் உள்ளன [S4]:\n\n* தடுத்தல் இலாபத்தை மீண்டும் முதலீடு செய்தல்\n* பாதுகாப்பான உணவுகளை வழங்குதல்\n* முக்கிய பூச்சிகள் மற்றும் நன்மை பயக்கும் நுண்ணுயிரிகளை அடையாளம் காணுதல்\n* மேலாண்மை அலகு மற்றும் சுற்றுச் சூழலை வரையறுத்தல்\n* மேலாண்மை உத்திகளை மேம்படுத்துதல்\n\nGeneral note: ஒருங்கிணைந்த பூச்சி மேலாண்மை என்பது பூச்சிகளை கட்டுப்படுத்த பல்வேறு முறைகளை ஒருங்கிணைத்து பயன்படுத்துவதாகும். இது சுற்றுச்சூழலுக்கு உகந்த அணுகுமுறையாகும்.",
+    "warnings": [],
+    "cited_sources": [
+      "பயிர் பாதுகாப்பு: ஒருங்கிணைந்த பூச்சி மேலாண்மை – கூறுகள் (IPM Components)",
+      "பயிர் பாதுகாப்பு: ஒருங்கிணைந்த பூச்சி மேலாண்மை – அறிமுகம் (IPM Introduction)",
+      "பயிர் பாதுகாப்பு: ஒருங்கிணைந்த பூச்சி மேலாண்மை – கூறுகள் (IPM Components)",
+      "பயிர் பாதுகாப்பு: ஒருங்கிணைந்த பூச்சி மேலாண்மை – அறிமுகம் (IPM Introduction)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "fair",
+      "notes": "Component list correct. Copies a garbled principle fragment ('தடுத்தல் இலாபத்தை மீண்டும் முதலீடு செய்தல்') verbatim."
+    }
+  },
+  {
+    "id": "ta08",
+    "question": "மண் வளத்தில் அங்ககப் பொருட்களின் பங்கு என்ன?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 26483,
+    "answer": "மண் வளத்தில் அங்ககப் பொருட்களின் பங்கு என்னவென்று கேட்கிறீர்கள். அதற்கு, [S1] உர நிர்வாகத்தில் அங்ககப் பொருள் மிகக் குறைவாக இருந்தாலும், முக்கியமான பங்கு வகிக்கிறது எனக் கூறப்பட்டுள்ளது. [S2] அங்ககப் பொருள் மண்ணின் இயல்புத் தன்மை, முக்கியமாக மண் அமைப்பை மேம்படுத்துகிறது. மேலும், இது பாக்டீரியா, பூஞ்சான் மற்றும் பிற உயிரினங்களுக்கான உணவுப் பொருளாகவும் செயல்படுகிறது. [S3] அதிகப்படியான அளவு அங்ககப்பொருட்கள் அமிலத்தன்மை மற்றும் சுண்ணாம்பு நிறைந்த மண்ணில் காணப்படுகின்றன. [S4] நன்கு வடிந்த சுண்ணாம்பு நிறைந்த மண்ணிலும் அங்ககப்பொருட்கள் காணப்படுகின்றன.\n\nGeneral note: அங்ககப் பொருட்கள் மண்ணின் தரத்தை மேம்படுத்தி, தாவரங்களுக்குத் தேவையான ஊட்டச்சத்துக்களை வழங்குகின்றன.",
+    "warnings": [],
+    "cited_sources": [
+      "உர நிர்வாகம்: மண் வளத்தில் அங்ககப் பொருட்களின் பங்கு (Role of Organic Matter)",
+      "உர நிர்வாகம்: மண் வளத்தில் அங்ககப் பொருட்களின் பங்கு (Role of Organic Matter)",
+      "தாவர ஊட்டச்சத்து: அத்தியாவசிய ஊட்டச்சத்துக்கள் (Essential Elements)",
+      "தாவர ஊட்டச்சத்து: அத்தியாவசிய ஊட்டச்சத்துக்கள் (Essential Elements)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "fair",
+      "notes": "S1/S2 correct. S3/S4 sentences misread a deficiency-causes table (soils with high organic matter) as facts about organic matter."
+    }
+  },
+  {
+    "id": "ta09",
+    "question": "பாசன நீர் பயிருக்கு ஏற்றதா என்று எப்படி அறிவது?",
+    "language": "ta",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 17,
+    "answer": "இதைப் பற்றிய சரிபார்க்கப்பட்ட தகவல் என் அறிவுத் தளத்தில் கிடைக்கவில்லை. பயிரின் பெயர் மற்றும் நீங்கள் காணும் பிரச்சனையுடன் மீண்டும் கேட்கவும், அல்லது அருகிலுள்ள வேளாண் அறிவியல் மையம் (KVK) / வேளாண் விரிவாக்க அலுவலரைத் தொடர்பு கொள்ளவும்.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "False refusal: correct document ranked first but scored 0.152, under the Tamil threshold 0.18."
+    }
+  },
+  {
+    "id": "ta10",
+    "question": "உரத்தின் பயன்பாட்டுத் திறனை எப்படி அதிகரிப்பது?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 28590,
+    "answer": "உரத்தின் பயன்பாட்டுத் திறனை அதிகரிக்க சில வழிகள் உள்ளன. [S1, S2]\n\n* மண் ஆய்வின் அடிப்படையில் உரமிடுவது அவசியம். மண் தன்மைக்கு ஏற்ப உரங்களைத் தேர்ந்தெடுக்க வேண்டும் [S1]. கார மண்ணுக்கு அமில உரங்களையும், அமில மண்ணுக்கு கார உரங்களையும் பயன்படுத்தலாம் [S1].\n* அடி உரமிடுவது சிறந்தது. உரத்தை வேர் பகுதியில் இட வேண்டும் [S2].\n* உரக்கலவை அட்டவணைப்படி உரங்களைக் கலக்க வேண்டும் [S2]. கடினமான மண் வகைகளில், தழைச் சத்து உரத்தில் பாதி அளவு அடி உரமாக இட வேண்டும், மீதி உரத்தை மேல் உரமாகப் பயன்படுத்த வேண்டும் [S2].\n* மேலோட்டமாக உரங்களை தெளிக்கக்கூடாது [S1].\n\nஉரமிடுவதில் ஏதேனும் சந்தேகம் இருந்தால், உங்கள் உள்ளூர் வேளாண்மை விரிவாக்க அதிகாரி அல்லது கிருஷி விக்யன் களம் (KVK) ஆகியவற்றின் உதவியை நாடுவது நல்லது.\n\nGeneral note: உரங்களின் சரியான பயன்பாடு, பயிர் உற்பத்திக்கு மிகவும் முக்கியமானது.",
+    "warnings": [],
+    "cited_sources": [
+      "உர நிர்வாகம்: உரப் பயன்பாட்டுத் திறனை மேம்படுத்தும் குறிப்புகள் (Tips for Better Fertilizer Use)",
+      "உர நிர்வாகம்: உரப் பயன்பாட்டுத் திறனை மேம்படுத்தும் குறிப்புகள் (Tips for Better Fertilizer Use)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "good",
+      "notes": "Faithful to source. Tamil KVK name mistranslated (கிருஷி விக்யான் ...)."
+    }
+  },
+  {
+    "id": "ta11",
+    "question": "திருந்திய நெல் சாகுபடியில் களை எப்படி கட்டுப்படுத்துவது?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 32410,
+    "answer": "திருந்திய நெல் சாகுபடியில் களைகளைக் கட்டுப்படுத்த, நீங்கள் பின்வரும் முறைகளைப் பயன்படுத்தலாம்:\n\n* மண்ணுக்கு காற்றோட்டம் அளிக்க வேண்டும் [S1]. இது வேர்களுக்கு அருகில் உள்ள களைகளை அகற்ற உதவும்.\n* கைமுறையாக களைகளை அகற்றலாம் [S1].\n* களைக்கருவிகளைப் பயன்படுத்தலாம் [S3]. அதாவது, சுழற்களைப்பான், கோனோ, களை எடுக்கும் கருவி அல்லது இரண்டு வரிசை களையெடுக்கும் மின்கருவி போன்ற கருவிகளைப் பயன்படுத்தலாம் [S3]. இந்த கருவிகளைப் பயன்படுத்தி, இரண்டு பக்கங்களிலும் களைகளை எடுக்கலாம் [S3].\n* குலைநோய் (Blast) கட்டுப்பாடு: குலைநோய் கட்டுப்படுத்த, குலைநோய் எதிர்ப்பு இரகங்களை பயிர் செய்ய வேண்டும் [S2].\n\nமேலும், களைகளை அகற்றும்போது, களைக்கருவியை செலுத்துவதன் மூலம் இரண்டு பக்கங்களிலும் களைகளை அகற்றலாம் [S3].\n\nஇவை களைகளைக் கட்டுப்படுத்த உதவும் சில முறைகள். உங்கள் பகுதியில் உள்ள வேளாண்மை அதிகாரியையோ அல்லது Krishi Vigyan Kendra (KVK) ையையோ அணுகுவது நல்லது [S1, S2].\n\nGeneral note: களைகளைக் கட்டுப்படுத்துவது ஒரு தொடர்ச்சியான செயல்முறையாகும். சரியான முறைகளைப் பின்பற்றுவதன் மூலம், உங்கள் நெல் வயலில் களைகளின் எண்ணிக்கையை குறைக்கலாம்.",
+    "warnings": [],
+    "cited_sources": [
+      "திருந்திய நெல் சாகுபடி: களை மேலாண்மை (SRI Weed Management)",
+      "நெல் பயிரைத் தாக்கும் நோய்கள்: குலைநோய் (Blast)",
+      "திருந்திய நெல் சாகுபடி: களை மேலாண்மை (SRI Weed Management)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "fair",
+      "notes": "Weeding methods correct. Adds an unrelated bullet on blast-resistant varieties from an off-topic passage."
+    }
+  },
+  {
+    "id": "ta12",
+    "question": "பயிருக்கு அத்தியாவசியமான ஊட்டச்சத்துக்கள் யாவை?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 26487,
+    "answer": "பயிருக்கு அத்தியாவசியமான ஊட்டச்சத்துக்கள் பின்வருமாறு:\n\nதாவரங்களின் வளர்ச்சிக்கு 16 தனிமங்கள் மிக முக்கியமாகக் கருதப்படுகின்றன [S1]. அவை:\n\n* கார்பன்\n* ஹைட்ரஜன்\n* ஆக்ஸிஜன்\n* நைட்ரஜன் (தழைச்சத்து) [S1]\n* பாஸ்பரஸ் (மணிச்சத்து) [S1]\n* பொட்டாசியம் (சாம்பல்சத்து) [S1]\n\nநைட்ரஜன், பாஸ்பரஸ் மற்றும் பொட்டாசியம் ஆகியவை பயிர்களுக்கு முக்கியமான ஊட்டச்சத்துக்கள் ஆகும் [S1]. மண்ணின் அமிலத்தன்மை மற்றும் கனமான மழை போன்ற காரணிகளால் நைட்ரஜன் குறைபாடு ஏற்படலாம் [S2].\n\nGeneral note: It's important to regularly test your soil to determine the specific nutrient needs of your crops.",
+    "warnings": [],
+    "cited_sources": [
+      "தாவர ஊட்டச்சத்து: அத்தியாவசிய ஊட்டச்சத்துக்கள் (Essential Elements)",
+      "தாவர ஊட்டச்சத்து: அத்தியாவசிய ஊட்டச்சத்துக்கள் (Essential Elements)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "fair",
+      "notes": "Supported. General note written in English instead of Tamil."
+    }
+  },
+  {
+    "id": "oos01",
+    "question": "Who won the cricket world cup in 2011?",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 13,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  },
+  {
+    "id": "oos02",
+    "question": "Write a short poem about the moon.",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 11,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  },
+  {
+    "id": "oos03",
+    "question": "What is the stock price of Reliance today?",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 11,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  },
+  {
+    "id": "oos04",
+    "question": "How do I repair a punctured bicycle tyre?",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 11,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  },
+  {
+    "id": "oos05",
+    "question": "How do I grow saffron in Kashmir?",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 10,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  },
+  {
+    "id": "oos06",
+    "question": "What is the minimum support price for wheat this year?",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 11,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  },
+  {
+    "id": "oos07",
+    "question": "How do I vaccinate my dairy cows against foot and mouth disease?",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 12,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  },
+  {
+    "id": "oos08",
+    "question": "நாளை சென்னையில் மழை பெய்யுமா?",
+    "language": "ta",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 10,
+    "answer": "இதைப் பற்றிய சரிபார்க்கப்பட்ட தகவல் என் அறிவுத் தளத்தில் கிடைக்கவில்லை. பயிரின் பெயர் மற்றும் நீங்கள் காணும் பிரச்சனையுடன் மீண்டும் கேட்கவும், அல்லது அருகிலுள்ள வேளாண் அறிவியல் மையம் (KVK) / வேளாண் விரிவாக்க அலுவலரைத் தொடர்பு கொள்ளவும்.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  },
+  {
+    "id": "oos09",
+    "question": "தமிழ்நாட்டின் முதலமைச்சர் யார்?",
+    "language": "ta",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 10,
+    "answer": "இதைப் பற்றிய சரிபார்க்கப்பட்ட தகவல் என் அறிவுத் தளத்தில் கிடைக்கவில்லை. பயிரின் பெயர் மற்றும் நீங்கள் காணும் பிரச்சனையுடன் மீண்டும் கேட்கவும், அல்லது அருகிலுள்ள வேளாண் அறிவியல் மையம் (KVK) / வேளாண் விரிவாக்க அலுவலரைத் தொடர்பு கொள்ளவும்.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  },
+  {
+    "id": "oos10",
+    "question": "ஒரு நல்ல திரைப்படம் பரிந்துரைக்கவும்",
+    "language": "ta",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 11,
+    "answer": "இதைப் பற்றிய சரிபார்க்கப்பட்ட தகவல் என் அறிவுத் தளத்தில் கிடைக்கவில்லை. பயிரின் பெயர் மற்றும் நீங்கள் காணும் பிரச்சனையுடன் மீண்டும் கேட்கவும், அல்லது அருகிலுள்ள வேளாண் அறிவியல் மையம் (KVK) / வேளாண் விரிவாக்க அலுவலரைத் தொடர்பு கொள்ளவும்.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  }
+]

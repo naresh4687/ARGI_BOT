@@ -1,0 +1,19 @@
+[theme]
+base = "light"
+primaryColor = "#2e7d32"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#eef5ea"
+textColor = "#1c2b1e"
+font = "sans serif"
+
+[server]
+headless = true
+# The UI has no file upload: documents are added via the ingestion CLI so that
+# public users cannot alter the knowledge base.
+maxUploadSize = 1
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"

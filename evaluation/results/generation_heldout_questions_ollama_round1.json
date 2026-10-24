@@ -1,0 +1,517 @@
+[
+  {
+    "id": "h-en01",
+    "question": "How does sprinkler irrigation work and when is it suitable?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 33446,
+    "answer": "Sprinkler irrigation works by applying water above the ground surface as a spray, resembling rainfall [S1, S2]. It uses a pump to create a pressure of at least 1.0 kg/cm2 to operate one sprinkler head, covering a diameter of 12 meters [S1]. Typically, 4-5 kg/cm2 pressure is needed when operating 4 sprinkler heads simultaneously [S2].\n\nIt’s best to use sprinkler irrigation with wind speeds less than 15 KMPH to reduce drift loss [S2]. Operating in the early morning or late evening minimizes evaporation [S2]. The cost of sprinkler irrigation is approximately Rs 30000 – 40000 per hectare [S2].\n\nThe suitability of water for irrigation depends on the salts present [S3]. The main salts are calcium, magnesium, sodium, chloride, sulphate, and bicarbonate [S3].\n\nGeneral note: Drip irrigation is another option, but the provided passages do not offer details on its operation or suitability. It is recommended that you contact your local agricultural extension officer or Krishi Vigyan Kendra (KVK) for further assistance.",
+    "warnings": [],
+    "cited_sources": [
+      "Irrigation Management: Sprinkler Irrigation",
+      "Irrigation Management: Sprinkler Irrigation",
+      "Irrigation Management: Suitability of Water for Irrigation"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "good",
+      "notes": "Sprinkler function, pressure, wind and timing correct. Off-topic paragraph on water salts."
+    }
+  },
+  {
+    "id": "h-en02",
+    "question": "What damage does gall midge cause to rice?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 27604,
+    "answer": "Gall midge damage to rice is as follows: [S1] The maggot feeds at the base of the growing shoot. This causes the formation of a tube-like gall that resembles “onion leaf” or “silver-shoot”. [S1] Infested tillers do not produce panicles. \n\nIt’s important to note that another disease, blast, can cause similar symptoms [S2, S3]. Blast can cause the culm to break and the panicle to fall over. [S2, S3] If the infection occurs before the milky stage of the rice grain, no grain is formed. [S3] However, if infection occurs later, the grains are of poor quality. [S3]\n\nRegarding gall midge, the damage is specific to the pest [S1].\n\nGeneral note: It’s crucial to accurately identify the problem to determine the best course of action. Please consult with your local agricultural extension officer or Krishi Vigyan Kendra (KVK) for further assistance.",
+    "warnings": [],
+    "cited_sources": [
+      "Pests of Paddy: Gall Midge (Orseolia oryzae)",
+      "Diseases of Rice: Blast (Magnaporthe oryzae)",
+      "Diseases of Rice: Blast (Magnaporthe oryzae)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "good",
+      "notes": "Gall midge damage correct. Claims blast causes 'similar symptoms'; the passage compares blast to stem borer, not gall midge."
+    }
+  },
+  {
+    "id": "h-en03",
+    "question": "How do leaf folder caterpillars damage paddy leaves?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 27681,
+    "answer": "Leaf folder caterpillars, also known as leaf rollers, cause damage to paddy leaves in the following ways: [S1, S2]\n\n* The larvae fold the leaves longitudinally [S1].\n* They scrape the green tissues of the leaves, turning them white and dry [S1].\n* During severe infestations, the entire field can appear scorched [S2].\n\nThe identification of the insect pest involves observing the eggs, larvae, and adult moths [S2]. The eggs are flat, oval, and yellowish-white [S2]. The larvae are greenish and translucent, and the adult moths have yellowish-brown wings with dark wavy lines and a dark band [S2].\n\nManagement is based on Economic Threshold Levels (ETL). ETL is 10% leaf damage at the vegetative phase and 5% of flag leaf damage at flowering [S2].\n\nGeneral note: It’s important to confirm the pest and its damage with a local agricultural extension officer or Krishi Vigyan Kendra (KVK) for accurate identification and tailored advice.",
+    "warnings": [],
+    "cited_sources": [
+      "Pests of Paddy: Leaf Folder (Cnaphalocrocis medinalis)",
+      "Pests of Paddy: Leaf Folder (Cnaphalocrocis medinalis)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "good",
+      "notes": "Faithful to source."
+    }
+  },
+  {
+    "id": "h-en04",
+    "question": "What causes brown spot disease in rice?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 29916,
+    "answer": "Brown spot disease in rice can be caused by several factors.\n\nHere’s what the passages tell us:\n\n* **Helminthosporium oryzae (Brown Spot):** This disease causes dark brown or black spots on the glumes and leaf blade [S1, S2]. These spots can lead to seed germination failure, seedling death, and reduced grain quality [S1]. Affected nurseries can be identified by a scorched appearance [S2].\n\n* **Rhizoctonia solani (Sheath Blight):** This disease causes greenish grey spots on the plants, which enlarge and merge [S3].\n\n* **Magnaporthe oryzae (Blast):** This disease causes lesions on the neck of the plant that can girdle the neck and cause the panicle to fall over [S4].\n\nIt’s important to note that symptoms can be similar across different diseases.\n\nGeneral note: It is crucial to accurately identify the disease affecting your rice crop. Consulting with a local agricultural extension officer or Krishi Vigyan Kendra (KVK) is recommended for proper diagnosis and advice.",
+    "warnings": [],
+    "cited_sources": [
+      "Diseases of Rice: Brown Spot (Helminthosporium oryzae)",
+      "Diseases of Rice: Brown Spot (Helminthosporium oryzae)",
+      "Diseases of Rice: Sheath Blight (Rhizoctonia solani)",
+      "Diseases of Rice: Blast (Magnaporthe oryzae)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "no",
+      "language_quality": "good",
+      "notes": "Passages do not name the cause; model supplies Helminthosporium oryzae from its own knowledge with [S1, S2] citations, then lists sheath blight and blast as causes of brown spot. Factual error."
+    }
+  },
+  {
+    "id": "h-en05",
+    "question": "What are the different methods of applying fertilizers?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 26496,
+    "answer": "Here are the different methods of applying fertilizers, according to the provided information:\n\n* **Drilling:** This method involves applying fertilizer at the time of sowing using a seed-cum-fertilizer drill [S1]. The fertilizer and seeds are placed in the same row but at different depths.\n* **Broadcasting:** This involves spreading fertilizers evenly across the entire field [S2].\n\n* **Puddling and Application:** For paddy fields, fertilizers should be applied during puddling [S4]. This helps the fertilizer penetrate and be stored in the soil.\n\n* **Deep Placement & Foliar Feeding:** In dry lands, deep placement of fertilizer, along with foliar feeding of nitrogen (urea) through spraying, should be done [S3].\n\nGeneral note: It’s important to follow the product label instructions and consult with your local agricultural extension officer or Krishi Vigyan Kendra (KVK) for specific recommendations tailored to your situation.",
+    "warnings": [],
+    "cited_sources": [
+      "Nutrient Management: Methods of Fertilizer Application",
+      "Nutrient Management: Methods of Fertilizer Application",
+      "Nutrient Management: Tips for Better Fertilizer Use Efficiency",
+      "Nutrient Management: Tips for Better Fertilizer Use Efficiency"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "good",
+      "notes": "Supported."
+    }
+  },
+  {
+    "id": "h-en06",
+    "question": "How much seed is needed for an SRI nursery?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 25133,
+    "answer": "For an SRI nursery, you’ll need 5 to 7 kilograms of seed per hectare [S1]. \n\nTo prepare the nursery area, you should create 100 square meters (2.50 cents) nurseries to plant one hectare [S1]. \n\nYou should spread a plastic sheet or used polythene gunny bags on the raised bed to prevent roots from growing deep [S1]. \n\nThe soil mixture should be prepared by sprinkling water using a rose can to keep the soil moist [S2]. \n\nYou should maintain a thin film of water around the seedling mats at 6 DAS [S2]. \n\nGeneral note: Ensure you follow all instructions on the fertilizer packaging and consult with your local agricultural extension officer or Krishi Vigyan Kendra (KVK) for specific recommendations.",
+    "warnings": [],
+    "cited_sources": [
+      "Rice: System of Rice Intensification (SRI) – Nursery Management",
+      "Rice: System of Rice Intensification (SRI) – Nursery Management"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "good",
+      "notes": "5-7 kg/ha correct. General note mentions fertilizer packaging, irrelevant."
+    }
+  },
+  {
+    "id": "h-en07",
+    "question": "Which factors should I consider when selecting a crop?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 30063,
+    "answer": "Here’s what you should consider when selecting crops for rotation:\n\nWhen planning your crop rotation, you should follow these guidelines [S1, S2]:\n\n* **Alternate Legumes and Non-Legumes:** Non-leguminous crops should be followed by leguminous crops, and vice versa [S1]. Examples include green gram and wheat, or maize and green gram [S1].\n* **Follow Crop Type:** Fodder crops should be followed by field or vegetable crops [S2]. For example, maize with cowpea can be followed by wheat, potato, cabbage, or onion [S2].\n* **Consider Multicut and Ratoon Crops:** Multicut crops like green gram or maize should be followed by seed crops [S2]. Similarly, ratoon crops such as sugarcane or jowar should be followed by deep-rooted restorative crops like pigeonpea, Lucerne, or cowpea [S2].\n\nThese rotations help maintain soil health and prevent the buildup of specific pests and diseases [S1, S2].\n\nGeneral note: Crop rotation is a key practice in sustainable agriculture. It improves soil fertility, reduces pest and disease problems, and can increase yields. It’s always best to consult with your local agricultural extension officer or Krishi Vigyan Kendra (KVK) for advice tailored to your specific region and soil conditions.",
+    "warnings": [],
+    "cited_sources": [
+      "Crop Production: Crop Selection",
+      "Crop Production: Crop Selection"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "good",
+      "notes": "Knowledge base page only covers crop-sequence criteria; model honestly reframes to rotation."
+    }
+  },
+  {
+    "id": "h-en08",
+    "question": "Why is natural pest control better than using chemical pesticides?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 30725,
+    "answer": "Here’s an answer to your question, based on the provided passages:\n\nNatural pest control is preferable to chemical pesticides for several key reasons. [S1] Pesticides don’t actually solve the underlying pest problem; instead, insecticide use has increased dramatically while crop losses have doubled in the last 50 years. [S1]\n\nHere’s why natural methods are often better:\n\n* **Cost:** Using natural control is frequently cheaper [S2] because it relies on materials already available on your farm, rather than buying expensive external products.\n* **Safety:** Natural methods are safer for people [S2].\n\nChemical pesticides are used when other methods aren’t effective enough to keep pest populations below damaging levels [S3]. They are applied only when the pest’s damage is approaching a critical threshold. [S3]\n\nIt’s important to consider the cost and potential problems associated with chemical control [S4]. When using chemical pesticides, you must carefully determine what to spray, when, where, and how, selecting safer options like neem-based pesticides or biopesticides [S4].\n\nGeneral note: Integrated Pest Management (IPM) focuses on a balanced approach to pest control, combining different strategies for the best results.",
+    "warnings": [],
+    "cited_sources": [
+      "Natural Pest and Disease Control",
+      "Natural Pest and Disease Control",
+      "Crop Protection: Integrated Pest Management – Introduction",
+      "Crop Protection: Integrated Pest Management – Components"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "good",
+      "notes": "Supported ('tenfold' softened to 'dramatically')."
+    }
+  },
+  {
+    "id": "h-en09",
+    "question": "What are the essential nutrients required by plants?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 20145,
+    "answer": "The essential nutrients required by plants are:\n\n* Carbon [S1] is a basic molecular component of carbohydrates, proteins, lipids, and nucleic acids.\n* Oxygen [S2] is present in virtually all organic compounds of living organisms.\n* Hydrogen [S2] plays a central role in plant metabolism.\n\nAccording to the passages, carbon, hydrogen, and oxygen are the most abundant elements in plants [S1, S2]. These elements are crucial for processes like photosynthesis and overall plant metabolism.\n\nGeneral note: Plant nutrition is complex and depends on the specific crop and environmental conditions. It is best to consult with a local agricultural extension officer or Krishi Vigyan Kendra (KVK) for tailored advice.",
+    "warnings": [],
+    "cited_sources": [
+      "Mineral Nutrition: Essential Elements",
+      "Mineral Nutrition: Essential Elements"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "good",
+      "notes": "Lists only C, H, O; omits that 16 elements are essential and that C, H, O are not mineral nutrients, both stated in S1. Misleading by omission."
+    }
+  },
+  {
+    "id": "h-en10",
+    "question": "How can weeds be controlled in SRI paddy fields?",
+    "language": "en",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 31273,
+    "answer": "Here’s how you can control weeds in SRI paddy fields, based on the available information:\n\nWeed management in SRI cultivation involves several methods [S1, S2]. \n\n* **Using Weeding Tools:** You can use rotary weeder, Cono weeder, or power-operated two-row weeder [S1]. Move the weeder forward and backward to bury the weeds and aerate the soil [S1].\n* **Timing:** This should be done at 7-10 days intervals, starting 10-15 days after planting [S1, S4].\n* **Direction:** The weeder can be moved in either direction of the rows and columns [S1, S4].\n* **Manual Weeding:** Manual weeding is also essential to remove weeds closer to the rice root zone [S1, S2, S3]. \n* **Soil Aeration:** Ensure you provide aeration to the soil [S1, S3, S4].\n\nGeneral note: It’s important to regularly monitor your paddy field for weeds and implement these methods consistently for optimal results. Consult your local agricultural extension officer or Krishi Vigyan Kendra (KVK) for specific advice tailored to your location and conditions.",
+    "warnings": [],
+    "cited_sources": [
+      "Rice: System of Rice Intensification (SRI) – Weed Management",
+      "Rice: System of Rice Intensification (SRI) – Weed Management",
+      "திருந்திய நெல் சாகுபடி: களை மேலாண்மை (SRI Weed Management)",
+      "திருந்திய நெல் சாகுபடி: களை மேலாண்மை (SRI Weed Management)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "good",
+      "notes": "Faithful to source."
+    }
+  },
+  {
+    "id": "h-ta01",
+    "question": "நெல் வயலில் எப்போது நீர் பாய்ச்ச வேண்டும்?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 23474,
+    "answer": "சாரி, இந்த கேள்விக்கு பதில் சொல்ல போதுமான தகவல் இந்த ஆவணத்தில் இல்லை. [S1] இந்த ஆவணத்தில், வயலில் நீரை வடிகட்ட வேண்டும் என்று கூறப்பட்டுள்ளது, ஆனால் எப்போது நீர் பாய்ச்ச வேண்டும் என்று குறிப்பிடப்படவில்லை. மேலும், பயிரின் பூத்தல் பருவத்தை தவிர நீரை வடிகட்ட வேண்டும் என்றும் கூறப்பட்டுள்ளது.\n\nநோய்த் தாக்கப்பட்ட வயலிலிருந்து நீர் மற்ற வயல்களுக்கு செல்வதை தவிர்க்க வேண்டும் என்றும், முறையான பயிர் இடைவெளியை பாதுகாக்க வேண்டும் என்றும் கூறப்பட்டுள்ளது.\n\nஇந்த கேள்விக்கு பதில் தெரிந்து கொள்ள, உங்கள் உள்ளூர் வேளாண்மை விரிவாக்க அதிகாரி அல்லது கிருஷி விக்யான் களம் (KVK) ஆகியவற்றை அணுகவும்.\n\nGeneral note: நெல் பயிர்களுக்கு நீர் பாய்ச்சுவது, பயிர் வளர்ச்சி மற்றும் மகசூலை அதிகரிக்க உதவும். ஆனால், சரியான நேரத்தை தீர்மானிக்க, உங்கள் பகுதியில் உள்ள காலநிலை மற்றும் நெல் வகையைப் பொறுத்து, வேளாண்மை நிபுணரை அணுகுவது நல்லது.",
+    "warnings": [],
+    "cited_sources": [
+      "நெல் பயிரைத் தாக்கும் நோய்கள்: பாக்டீரியா இலைக்கருகல் நோய் (Bacterial Leaf Blight)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "fair",
+      "notes": "Correctly says the passage does not answer the question (good behaviour), though status is 'answered'. Opens with colloquial 'சாரி'. Tamil KVK name mistranslated (கிருஷி விக்யான் ...)."
+    }
+  },
+  {
+    "id": "h-ta02",
+    "question": "குலைநோய் எந்தப் பூசணத்தால் ஏற்படுகிறது?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 24153,
+    "answer": "குலைநோய் பைரிகுலேரியா ஒரைசே (Magnaporthe oryzae) என்ற பூசணத்தால் ஏற்படுகிறது [S1, S2].\n\nஇலைகளில் வெண்மை நிறத்திலிருந்து சாம்பல் நிற மைய பகுதியுடன் காய்ந்த ஓரங்களுடன் கூடிய கண் வடிவ புள்ளிகள் காணப்படும் [S2]. இந்த புள்ளிகள் ஒன்று சேர்ந்து பெரிய ஒழுங்கற்ற திட்டுக்களை உருவாக்கும் [S2]. பயிரின் அனைத்து பகுதிகளிலும் (இலைகள், தண்டு, கணுப்பகுதி, கழுத்துப் பகுதி, கதிர்) பூசணத்தால் தாக்கப்பட்டிருக்கும் [S1].\n\nGeneral note: குலைநோய் என்பது நெற்பயிரில் ஏற்படும் ஒரு நோயாகும். இது பைரிகுலேரியா ஒரைசே என்ற பூஞ்சையால் ஏற்படுகிறது. இந்த நோயைக் கட்டுப்படுத்த, உங்கள் உள்ளூர் வேளாண்மை விரிவாக்க அதிகாரி அல்லது கிருஷி விக்யான் களம் (KVK) ஆகியவற்றின் ஆலோசனையைப் பெறுவது நல்லது.",
+    "warnings": [],
+    "cited_sources": [
+      "நெல் பயிரைத் தாக்கும் நோய்கள்: குலைநோய் (Blast)",
+      "நெல் பயிரைத் தாக்கும் நோய்கள்: குலைநோய் (Blast)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "good",
+      "notes": "Supported. Tamil KVK name mistranslated (கிருஷி விக்யான் ...)."
+    }
+  },
+  {
+    "id": "h-ta03",
+    "question": "தண்டுத் துளைப்பானால் வெண்கதிர் ஏன் உருவாகிறது?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 38358,
+    "answer": "தண்டுத் துளைப்பானால் வெண்கதிர் உருவாகுவது குறித்து நீங்கள் கேட்ட கேள்விக்கு பதில் இதோ:\n\nதண்டுத் துளைப்பான் (Yellow Stem Borer) பயிரை தாக்கும்போது, அதன் காரணமாகவே வெண்கதிர் உருவாகிறது [S1, S2]. தண்டுத் துளைப்பான் தண்டு மற்றும் கதிர்களைச் சேதப்படுத்துவதால், முழு தானியக் கதிர்கள் காய்ந்துவிடுகின்றன [S1]. இதனால், காய்ந்த கதிர்கள் வெண்கதிர் என அழைக்கப்படுகின்றன [S1].\n\nமேலும், தண்டுத் துளைப்பானின் முட்டைகள் பாலேடு போன்ற வெள்ளை நிறத்தில் தட்டையாக இருக்கும் [S2]. இது கதிர்களில் முட்டையிடுவதால், கதிர்கள் சேதமடைந்து வெண்கதிர் உருவாகிறது [S2].\n\nகணு குலை நோயால் (Blast) பாதிக்கப்பட்ட பயிர்களில் வெண் கதிர் அறிகுறி தோன்றினால், அது தண்டுத் துளைப்பானால் ஏற்பட்ட சேதத்தின் காரணமாக இருக்கலாம் [S3, S4].\n\nபொதுவாக, தண்டுத் துளைப்பானின் தாக்குதல் வெண்கதிரை உருவாக்குவதற்கான முக்கிய காரணம் ஆகும்.\n\nGeneral note: தண்டுத் துளைப்பான் ஒரு முக்கியமான பூச்சி, இது நெல் பயிர்களுக்கு பெரும் சேதத்தை விளைவிக்கும். இந்த பூச்சியின் தாக்குதலைக் கட்டுப்படுத்த சரியான நேரத்தில் நடவடிக்கை எடுப்பது அவசியம். உங்கள் பகுதியில் உள்ள வேளாண்மைப் பொருட்களைப் பற்றி மேலும் அறிய, உங்கள் உள்ளூர் வேளாண்மை விரிவாக்க அதிகாரி அல்லது கிருஷி விக்யான் களம் (KVK) ஆகியவற்றின் உதவியை நாடுவது நல்லது.",
+    "warnings": [],
+    "cited_sources": [
+      "நெல் பயிரைத் தாக்கும் பூச்சிகள்: தண்டுத் துளைப்பான் (Yellow Stem Borer)",
+      "நெல் பயிரைத் தாக்கும் பூச்சிகள்: தண்டுத் துளைப்பான் (Yellow Stem Borer)",
+      "நெல் பயிரைத் தாக்கும் நோய்கள்: குலைநோய் (Blast)",
+      "நெல் பயிரைத் தாக்கும் நோய்கள்: குலைநோய் (Blast)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "fair",
+      "notes": "Main explanation correct. Unsupported claim that eggs laid on ears cause white ear; inverts S3 (blast itself causes white ear). Tamil KVK name mistranslated (கிருஷி விக்யான் ...)."
+    }
+  },
+  {
+    "id": "h-ta04",
+    "question": "நெல்லுக்கான ஒருங்கிணைந்த பூச்சி மேலாண்மை முறைகள் யாவை?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 30308,
+    "answer": "நெல்லுக்கான ஒருங்கிணைந்த பூச்சி மேலாண்மை முறைகள் பின்வருமாறு:\n\nஒருங்கிணைந்த பூச்சி மேலாண்மை (IPM) என்பது பல்வேறு முறைகளை ஒருங்கிணைத்து செயல்படும் ஒரு அணுகுமுறை ஆகும் [S1]. இதில் உள்ள முக்கிய கூறுகள்:\n\n* உழவியல் முறைகள்: பயிர் சுழற்சி மற்றும் சரியான நடவு முறைகளைப் பயன்படுத்துதல்.\n* ஒழுங்கு நடைமுறைகள்: பயிர்களை அவ்வப்போது கண்காணித்து, பூச்சிகள் பரவுவதைக் கண்டறிதல்.\n* இயந்திர முறைகள்: பயிர்களை அழிக்கும் இயந்திரங்களைப் பயன்படுத்துதல்.\n* மரபு சார்ந்த முறைகள்: கைமுறையாக பூச்சிகளை அகற்றுதல்.\n* உயிரியல் முறைகள்: நன்மை செய்யும் பூச்சிகளைப் பயன்படுத்தி தீங்கு செய்யும் பூச்சிகளைக் கட்டுப்படுத்துதல்.\n* இரசாயன முறைகள்: இரசாயன பூச்சிக்கொல்லிகளைப் பயன்படுத்துதல் (கடைசி முயற்சியாக).\n\nஇந்த முறைகளை ஒருங்கிணைத்து பயன்படுத்துவதன் மூலம் நெல்லில் பூச்சி தாக்குதல்களைக் கட்டுப்படுத்தலாம் [S1].\n\nGeneral note: ஒருங்கிணைந்த பூச்சி மேலாண்மை என்பது ஒரு முழுமையான அணுகுமுறை. இது பூச்சிக்கொல்லிகளின் பயன்பாட்டைக் குறைத்து, சுற்றுச்சூழலுக்கு உகந்த தீர்வுகளை வழங்குகிறது. உங்கள் பகுதியில் உள்ள வேளாண்மை விரிவாக்க அதிகாரி அல்லது கிருஷி விக்யான் மத்திய நிலையத்தை (KVK) அணுகி மேலும் தகவல்களைப் பெறலாம்.",
+    "warnings": [],
+    "cited_sources": [
+      "பயிர் பாதுகாப்பு: ஒருங்கிணைந்த பூச்சி மேலாண்மை – கூறுகள் (IPM Components)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "fair",
+      "notes": "Six component names correct [S1]; the uncited explanations are the model's own and wrong (e.g. mechanical methods = 'machines that destroy crops', host-resistance methods = hand-picking). Tamil KVK name mistranslated (கிருஷி விக்யான் ...)."
+    }
+  },
+  {
+    "id": "h-ta05",
+    "question": "அங்கக உரங்கள் மண்ணுக்கு எப்படி உதவுகின்றன?",
+    "language": "ta",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 20,
+    "answer": "இதைப் பற்றிய சரிபார்க்கப்பட்ட தகவல் என் அறிவுத் தளத்தில் கிடைக்கவில்லை. பயிரின் பெயர் மற்றும் நீங்கள் காணும் பிரச்சனையுடன் மீண்டும் கேட்கவும், அல்லது அருகிலுள்ள வேளாண் அறிவியல் மையம் (KVK) / வேளாண் விரிவாக்க அலுவலரைத் தொடர்பு கொள்ளவும்.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "False refusal: no passage above the Tamil threshold 0.18."
+    }
+  },
+  {
+    "id": "h-ta06",
+    "question": "சொட்டு நீர்ப் பாசன அமைப்பின் பாகங்கள் என்ன?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 25341,
+    "answer": "சொட்டு நீர்ப் பாசன அமைப்பின் பாகங்கள் பின்வருமாறு:\n\nசொட்டு நீர்ப் பாசனம் என்பது பயிர்களுக்கு நீரை அழுத்தத்துடன் வலைப்பின்னல் குழாய் வழியாக வழங்கும் முறையாகும் [S2]. இந்த அமைப்பில் பயன்படுத்தப்படும் முக்கிய கூறுகள்:\n\n* மேல் நிலைத் தொட்டி [S2].\n* 50 மி.மீ, 75 மி.மீ, எச். டி. பி. இ அல்லது பி.வி.சி குழாய்கள் [S2].\n* வலைப்பின்னல் குழாய்கள் [S2].\n\nமேலும், 75,000 பூசணி வகைகள் 1-2 3-6 15 54 1.20 75,000 போன்ற விவரங்களும் இந்த அமைப்பில் பயன்படுத்தப்படுகின்றன [S1].\n\nGeneral note: சொட்டு நீர்ப் பாசனம் என்பது நீர் பயன்பாட்டை குறைத்து, பயிர்களுக்குத் தேவையான நீரை நேரடியாக வேர் பகுதிக்கு வழங்குவதாகும்.",
+    "warnings": [],
+    "cited_sources": [
+      "நீர் மேலாண்மை: சொட்டு நீர்ப் பாசனம் (Drip Irrigation)",
+      "நீர் மேலாண்மை: சொட்டு நீர்ப் பாசனம் (Drip Irrigation)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "fair",
+      "notes": "Components from S2 correct; repeats the garbage number fragment as a component."
+    }
+  },
+  {
+    "id": "h-ta07",
+    "question": "பயிர்களில் ஊட்டச்சத்து குறைபாட்டை எப்படி கண்டறிவது?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 29491,
+    "answer": "சாகுபடிதாரரே, பயிர்களில் ஊட்டச்சத்து குறைபாட்டை கண்டறிய சில வழிகள் உள்ளன.\n\nபயிர் இலைகளில் ஏற்படும் அறிகுறிகளை வைத்து ஊட்டச்சத்து குறைபாட்டை அறியலாம் [S1]. குறிப்பாக, வளர்ச்சியடைந்த இலைகள் மற்றும் இளம் இலைகளில் குறைபாடுகள் இருந்தால், அது ஊட்டச்சத்து குறைபாட்டின் அறிகுறியாக இருக்கலாம்.\n\nநைட்ரஜன் குறைபாடு இருந்தால், சோளம், மக்காச்சோளம், பயறு வகை பயிர்களில் அறிகுறிகள் காணப்படும் [S1]. பாஸ்பரஸ் குறைபாடு இருந்தால், மண்ணின் அமிலத்தன்மை மற்றும் சுண்ணாம்பு நிறைந்த மண் இருந்தால் அது காரணமாக இருக்கலாம் [S2].\n\nமேலும், பயிர்களின் சராசரி சத்து நிலவரத்தை அறிந்து கொள்வது அவசியம் [S2]. கனமான மழை மற்றும் தாவரக்கழிவுகளை எரிப்பதால் நைட்ரஜன் குறைபாடு ஏற்படலாம். மண்ணின் அமிலத்தன்மை மற்றும் சுண்ணாம்பு நிறைந்த மண் பாஸ்பரஸ் குறைபாட்டிற்கு காரணமாக இருக்கலாம் [S2].\n\nஉங்களுக்கு மேலும் விவரங்கள் தேவைப்பட்டால், உங்கள் உள்ளூர் வேளாண்மை விரிவாக்க அதிகாரி அல்லது கிருஷி விக்யான் களம் (KVK) ஆகியவற்றின் உதவியை நாடுவது நல்லது.\n\nGeneral note: ஊட்டச்சத்து குறைபாட்டைத் துல்லியமாகக் கண்டறிய, மண் பரிசோதனை செய்வது மிகவும் பயனுள்ளதாக இருக்கும்.",
+    "warnings": [],
+    "cited_sources": [
+      "தாவர ஊட்டச்சத்து: அத்தியாவசிய ஊட்டச்சத்துக்கள் (Essential Elements)",
+      "தாவர ஊட்டச்சத்து: அத்தியாவசிய ஊட்டச்சத்துக்கள் (Essential Elements)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "fair",
+      "notes": "Passages are table headers; answer is vague and misreads the table (N deficiency 'seen in sorghum, maize, pulses'). Tamil KVK name mistranslated (கிருஷி விக்யான் ...)."
+    }
+  },
+  {
+    "id": "h-ta08",
+    "question": "இலைக்கருகல் நோயின் அறிகுறிகள் என்ன?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 30385,
+    "answer": "இலைக்கருகல் நோயின் அறிகுறிகள் பின்வருமாறு:\n\nஇலைப்பரப்பின் மீது நீரில் நனைத்தது போன்று மஞ்சள் நிற வரிகளுடன் காணப்படும் அல்லது இலை நுனிகள் அலை வடிவ ஓரத்துடன் மாறும் [S1]. இது சேந்தோமோனாஸ் ஒரைசே ( *Stenomaas oryzae*) என்ற பாக்டீரியாவால் ஏற்படுகிறது.\n\nமேலும், பயிரின் அனைத்து பகுதிகளும் (இலைகள், தண்டு, கணுப்பகுதி, கழுத்துப் பகுதி, கதிர்) பூசணத்தால் தாக்கப்பட்டிருக்கும் என்பதையும் கவனிக்க வேண்டும் [S3]. இது குலைநோய் (Blast) நோயின் ஒரு பகுதியாக இருக்கலாம், ஆனால் குலைநோயின் அறிகுறிகள் கருப்பு நிறக் கணுக்கள் மற்றும் வெண் கதிர்ப்பருவ அறிகுறி ஆகியவற்றை உள்ளடக்கியது [S2].\n\nஇந்த அறிகுறிகளை வைத்து இலைக்கருகல் நோயை உறுதிப்படுத்தலாம். இருப்பினும், சரியான நோயறிதலுக்கு உங்கள் உள்ளூர் வேளாண்மை விரிவாக்க அலுவலர் அல்லது கிருஷி விக்யான் களம் (KVK) ஆகியவற்றின் உதவியை நாடுவது நல்லது.\n\nGeneral note: நோயறிதலுக்கு ஒரு விவசாயி பல ஆதாரங்களை அணுகுவது நல்லது.",
+    "warnings": [],
+    "cited_sources": [
+      "நெல் பயிரைத் தாக்கும் நோய்கள்: பாக்டீரியா இலைக்கருகல் நோய் (Bacterial Leaf Blight)",
+      "நெல் பயிரைத் தாக்கும் நோய்கள்: குலைநோய் (Blast)",
+      "நெல் பயிரைத் தாக்கும் நோய்கள்: குலைநோய் (Blast)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "partial",
+      "language_quality": "fair",
+      "notes": "BLB symptom correct. Mangles pathogen name ('Stenomaas oryzae'); drifts into blast; says symptoms 'confirm' the disease, against rule 7. Tamil KVK name mistranslated (கிருஷி விக்யான் ...)."
+    }
+  },
+  {
+    "id": "h-ta09",
+    "question": "திருந்திய நெல் சாகுபடியில் எத்தனை நாள் வயதுடைய நாற்றுகளை நட வேண்டும்?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 23899,
+    "answer": "சரி, உங்கள் கேள்விக்கு பதில் இதோ:\n\nதிருந்திய நெல் சாகுபடியில், ஒரு குத்துக்கு 12 – 15 கிலோ எடை கொண்ட இரண்டு நாற்றுகளை நட வேண்டும் [S2]. அதாவது, ஒரு ஏக்கருக்கு ஒரு குத்துக்கு இரண்டு நாற்றுகளை நடப்பீர்கள் என்றால், மொத்தம் 12 – 15 கிலோ விதைகள் தேவைப்படும் [S2].\n\nகளைகளை அகற்றும் முறையைப் பற்றி S1 கூறுகிறது, ஆனால் நாற்றுகளின் எண்ணிக்கையை பற்றி எதுவும் குறிப்பிடவில்லை.\n\nமண்ணுக்கு காற்றோட்டம் அளிப்பது முக்கியம் [S1].\n\nGeneral note: நாற்றுகளின் எண்ணிக்கை மற்றும் விதை அளவு, நிலத்தின் தன்மை மற்றும் பயிர் வகையைப் பொறுத்து மாறுபடலாம். உங்கள் உள்ளூர் வேளாண்மை விரிவாக்க அதிகாரி அல்லது கிருஷி விக்யான் களம் (KVK) ஆகியவற்றின் ஆலோசனையைப் பெறுவது நல்லது.",
+    "warnings": [],
+    "cited_sources": [
+      "திருந்திய நெல் சாகுபடி: களை மேலாண்மை (SRI Weed Management)",
+      "திருந்திய நெல் சாகுபடி: நாற்றங்கால் மேலாண்மை (SRI Nursery Management)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "no",
+      "language_quality": "fair",
+      "notes": "Seedling age is not in the passages; instead of saying so the model invents 'two seedlings weighing 12-15 kg' from the seed-rate table."
+    }
+  },
+  {
+    "id": "h-ta10",
+    "question": "உவர் நீரைப் பாசனத்திற்குப் பயன்படுத்தலாமா?",
+    "language": "ta",
+    "status": "answered",
+    "mode": "ollama",
+    "latency_ms": 19424,
+    "answer": "சாரி, இந்த கேள்விக்கு பதில் சொல்ல போதுமான தகவல் இந்த ஆவணத்தில் இல்லை. [S1] பாசன நீரின் தகுதி, நீரில் உள்ள உப்பு மற்றும் உப்புகளின் வகையைப் பொறுத்தது. கால்சியம், மெக்னீசியம், சோடியம் போன்ற உப்புக்கள் நீரில் கரையும்போது நேர் மின்னூட்ட துகள்களை உருவாக்குகின்றன. உவர் நீரின் தன்மை மற்றும் மண் வகையைப் பொறுத்து, அது பாசனத்திற்குப் பயன்படுத்தப்படுமா இல்லையா என்பதைத் தீர்மானிக்க வேண்டும்.\n\nஉங்களுக்குத் தெளிவான விளக்கம் தேவைப்பட்டால், உங்கள் உள்ளூர் வேளாண்மை விரிவாக்க அதிகாரி அல்லது கிரிஷி விக்யான் களம் (KVK) ஆகியவற்றின் உதவியை நாடுவது நல்லது.",
+    "warnings": [],
+    "cited_sources": [
+      "நீர் மேலாண்மை: பாசன நீரின் தகுதி (Suitability of Water for Irrigation)"
+    ],
+    "manual_review": {
+      "supported_by_sources": "yes",
+      "language_quality": "fair",
+      "notes": "Honestly says the passage is insufficient and summarises it correctly. Opens with 'சாரி'. Tamil KVK name mistranslated (கிருஷி விக்யான் ...)."
+    }
+  },
+  {
+    "id": "h-oos01",
+    "question": "What is the best smartphone under 20000 rupees?",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 16,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  },
+  {
+    "id": "h-oos02",
+    "question": "How do I apply for a passport in India?",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 12,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  },
+  {
+    "id": "h-oos03",
+    "question": "How should I rear broiler chickens?",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 10,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  },
+  {
+    "id": "h-oos04",
+    "question": "What is the price of tomatoes in Koyambedu market today?",
+    "language": "en",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 13,
+    "answer": "I could not find verified information about this in my knowledge base. Please rephrase with the crop name and the problem you see, or contact your nearest Krishi Vigyan Kendra (KVK) or agricultural extension officer.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  },
+  {
+    "id": "h-oos05",
+    "question": "கணினியில் வைரஸை எப்படி நீக்குவது?",
+    "language": "ta",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 11,
+    "answer": "இதைப் பற்றிய சரிபார்க்கப்பட்ட தகவல் என் அறிவுத் தளத்தில் கிடைக்கவில்லை. பயிரின் பெயர் மற்றும் நீங்கள் காணும் பிரச்சனையுடன் மீண்டும் கேட்கவும், அல்லது அருகிலுள்ள வேளாண் அறிவியல் மையம் (KVK) / வேளாண் விரிவாக்க அலுவலரைத் தொடர்பு கொள்ளவும்.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  },
+  {
+    "id": "h-oos06",
+    "question": "இன்றைய தங்கம் விலை என்ன?",
+    "language": "ta",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 11,
+    "answer": "இதைப் பற்றிய சரிபார்க்கப்பட்ட தகவல் என் அறிவுத் தளத்தில் கிடைக்கவில்லை. பயிரின் பெயர் மற்றும் நீங்கள் காணும் பிரச்சனையுடன் மீண்டும் கேட்கவும், அல்லது அருகிலுள்ள வேளாண் அறிவியல் மையம் (KVK) / வேளாண் விரிவாக்க அலுவலரைத் தொடர்பு கொள்ளவும்.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  },
+  {
+    "id": "h-oos07",
+    "question": "மீன் வளர்ப்பை எப்படி தொடங்குவது?",
+    "language": "ta",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 10,
+    "answer": "இதைப் பற்றிய சரிபார்க்கப்பட்ட தகவல் என் அறிவுத் தளத்தில் கிடைக்கவில்லை. பயிரின் பெயர் மற்றும் நீங்கள் காணும் பிரச்சனையுடன் மீண்டும் கேட்கவும், அல்லது அருகிலுள்ள வேளாண் அறிவியல் மையம் (KVK) / வேளாண் விரிவாக்க அலுவலரைத் தொடர்பு கொள்ளவும்.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  },
+  {
+    "id": "h-oos08",
+    "question": "கிரிக்கெட் போட்டியில் யார் வென்றார்கள்?",
+    "language": "ta",
+    "status": "insufficient",
+    "mode": "ollama",
+    "latency_ms": 11,
+    "answer": "இதைப் பற்றிய சரிபார்க்கப்பட்ட தகவல் என் அறிவுத் தளத்தில் கிடைக்கவில்லை. பயிரின் பெயர் மற்றும் நீங்கள் காணும் பிரச்சனையுடன் மீண்டும் கேட்கவும், அல்லது அருகிலுள்ள வேளாண் அறிவியல் மையம் (KVK) / வேளாண் விரிவாக்க அலுவலரைத் தொடர்பு கொள்ளவும்.",
+    "warnings": [],
+    "cited_sources": [],
+    "manual_review": {
+      "supported_by_sources": null,
+      "language_quality": null,
+      "notes": "Correctly refused (out of scope)."
+    }
+  }
+]

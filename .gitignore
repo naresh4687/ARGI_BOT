@@ -1,0 +1,37 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Model caches / large binaries
+.cache/
+*.safetensors
+*.bin
+*.onnx
+models/
+
+# User data / scratch
+data/uploads/
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Downloaded source documents and the index built from them are not
+# redistributed (TNAU pages are "All Rights Reserved"; see README §9).
+# Rebuild with fetch_sources + ingest, or set AUTO_FETCH_SOURCES=1.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
